@@ -1,0 +1,19 @@
+{
+  "auditors": [
+    {
+      "id": 1,
+      "name": "Gauntlet",
+      "type": "Economic",
+      "projects": 20,
+      "mcap": 100000000
+    }
+  ],
+  "audits": [
+    {
+      "id": 1,
+      "auditor": "Gauntlet",
+      "date": "2020-01-01",
+      "paper": "https://arxiv.org/abs/2001.00000"
+    }
+  ]
+}
