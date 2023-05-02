@@ -3,11 +3,11 @@ import './App.css';
 import Layout from './layout';
 import Root from './routes/root';
 import Auditors from './routes/auditors';
+import Auditor from './routes/auditor';
 import Audits from './routes/audits';
 import Audit from './routes/audit';
 import NotFound from './NotFound';
 import data from './data.json';
-import Auditor from './routes/auditor';
 
 function App() {
   const auditors = data.auditors;

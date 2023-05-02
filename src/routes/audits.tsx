@@ -7,7 +7,7 @@ export interface AuditsProps {
 const Audits = ({ audits }: AuditsProps) => {
   return (
     <div>
-      <h1>Audits</h1>
+      <h1 className="display-2 my-5 text-center">Audits</h1>
       {audits.map((audit: Audit) => {
         return (
           <div key={audit.id}>
