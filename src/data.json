@@ -333,6 +333,76 @@
       "auditee": "PancakeSwap",
       "date": "2023-03-29",
       "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-PancakeSwapV3-v1.0.pdf"
+    },
+    {
+      "id": 31,
+      "auditor": "Gauntlet",
+      "auditee": "Compound",
+      "date": "2023-01-26",
+      "paper": "https://www.comp.xyz/t/compound-v2-risk-parameter-updates-2023-01-25/4001"
+    },
+    {
+      "id": 32,
+      "auditor": "Gauntlet",
+      "auditee": "Compound",
+      "date": "2022-12-22",
+      "paper": "https://www.comp.xyz/t/compound-v2-risk-parameter-updates-2022-12-21/3864"
+    },
+    {
+      "id": 33,
+      "auditor": "Gauntlet",
+      "auditee": "Compound",
+      "date": "2022-12-29",
+      "paper": "https://www.comp.xyz/t/compound-v3-usdc-comet-risk-parameter-updates-2022-12-28/3946"
+    },
+    {
+      "id": 34,
+      "auditor": "Gauntlet",
+      "auditee": "Compound",
+      "date": "2022-11-24",
+      "paper": "https://www.comp.xyz/t/risk-parameter-updates-2022-11-23/3802"
+    },
+    {
+      "id": 35,
+      "auditor": "Gauntlet",
+      "auditee": "Compound",
+      "date": "2022-10-27",
+      "paper": "https://www.comp.xyz/t/risk-parameter-updates-2022-10-26/3735"
+    },
+    {
+      "id": 36,
+      "auditor": "Gauntlet",
+      "auditee": "Aave",
+      "date": "2023-03-21",
+      "paper": "https://www.tally.xyz/gov/aave/proposal/190"
+    },
+    {
+      "id": 37,
+      "auditor": "Gauntlet",
+      "auditee": "Aave",
+      "date": "2023-03-18",
+      "paper": "https://governance.aave.com/t/arc-gauntlet-recommendations-for-wsteth-and-reth-on-eth-v3/12349"
+    },
+    {
+      "id": 38,
+      "auditor": "Gauntlet",
+      "auditee": "Aave",
+      "date": "2023-02-14",
+      "paper": "https://governance.aave.com/t/arc-gauntlet-interest-rate-curve-changes-for-aave-v3-markets-feb-2023/11851"
+    },
+    {
+      "id": 39,
+      "auditor": "Gauntlet",
+      "auditee": "Aave",
+      "date": "2022-11-18",
+      "paper": "https://governance.aave.com/t/arc-risk-parameter-updates-for-aave-v2-eth-and-aave-arc-fireblocks-2022-11-17/10688"
+    },
+    {
+      "id": 40,
+      "auditor": "Gauntlet",
+      "auditee": "Aave",
+      "date": "2022-10-07",
+      "paper": "https://governance.aave.com/t/arc-risk-parameter-updates-for-aave-v2-and-aave-arc-fireblocks-2022-10-06/10201"
     }
   ]
 }
