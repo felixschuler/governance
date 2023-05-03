@@ -54,7 +54,7 @@
       "mcap": "$200B+",
       "clients": ["Maker", "Curve", "OpenSea"],
       "chains": ["All Chains"],
-      "website": "https://www.slowmist.com/"
+      "website": "https://quantstamp.com/"
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
         "The Graph"
       ],
       "chains": ["All Chains"],
-      "website": "https://www.slowmist.com/"
+      "website": "https://openzeppelin.com/"
     },
     {
       "id": 7,

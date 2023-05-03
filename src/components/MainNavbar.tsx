@@ -6,7 +6,7 @@ const MainNavbar = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <Link className="navbar-brand" to={'/'}>
-          Governance
+          Audit Explorer
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

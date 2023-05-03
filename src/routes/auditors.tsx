@@ -1,4 +1,6 @@
+import { Col, Row } from 'react-bootstrap';
 import { Auditor } from '../utils/types';
+import AuditorListComponent from '../components/AuditorListComponent';
 
 export interface AuditorsProps {
   auditors: Auditor[];
@@ -7,16 +9,16 @@ export interface AuditorsProps {
 const Auditors = ({ auditors }: AuditorsProps) => {
   return (
     <div>
-      <h1 className="display-2 my-5 text-center">Auditors</h1>
-      {auditors.map((auditor: Auditor) => {
-        return (
-          <div key={auditor.id}>
-            <h2>{auditor.name}</h2>
-            <p>{auditor.type}</p>
-            <p>{auditor.mcap}</p>
-          </div>
-        );
-      })}
+      <h1 className="display-2 mb-5 text-center">Auditors</h1>
+      <Row>
+        {auditors.map((auditor: Auditor) => {
+          return (
+            <Col key={auditor.id} md={4} className="mb-3">
+              <AuditorListComponent auditor={auditor} />
+            </Col>
+          );
+        })}
+      </Row>
     </div>
   );
 };
