@@ -13,7 +13,7 @@ const Auditors = ({ auditors }: AuditorsProps) => {
       <Row>
         {auditors.map((auditor: Auditor) => {
           return (
-            <Col key={auditor.id} md={4} className="mb-3">
+            <Col key={auditor.id} sm={6} md={4} xl={3} className="mb-3">
               <AuditorListComponent auditor={auditor} />
             </Col>
           );

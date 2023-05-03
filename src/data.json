@@ -128,210 +128,210 @@
       "id": 1,
       "auditor": "Hacken",
       "auditee": "Binance",
-      "date": "14.02.2023",
+      "date": "2023-02-14",
       "paper": "https://hacken.io/wp-content/uploads/2023/02/Binance-PoS-tech-assesment.pdf"
     },
     {
       "id": 2,
       "auditor": "Hacken",
       "auditee": "WhiteBit",
-      "date": "31.08.2022",
+      "date": "2022-08-31",
       "paper": "https://hacken.io/wp-content/uploads/2022/09/WhiteBIT_13072022_SCAudit_Report_2.docx.pdf"
     },
     {
       "id": 3,
       "auditor": "Hacken",
       "auditee": "Huobi",
-      "date": "18.03.2022",
+      "date": "2022-03-18",
       "paper": "https://hacken.io/wp-content/uploads/2022/04/Huobi_TokenSCAudit_Report.pdf"
     },
     {
       "id": 4,
       "auditor": "Hacken",
       "auditee": "1INCH",
-      "date": "04.11.2020",
+      "date": "2020-11-04",
       "paper": "https://hacken.io/wp-content/uploads/2022/02/04102020_OneInch_SC_Audit_Report.pdf"
     },
     {
       "id": 5,
       "auditor": "Hacken",
       "auditee": "Kyber Network",
-      "date": "04.04.2021",
+      "date": "2021-04-04",
       "paper": "https://hacken.io/wp-content/uploads/2021/04/04042021_Kyber_SC_Audit_Report.pdf"
     },
     {
       "id": 6,
       "auditor": "Hacken",
       "auditee": "Kyber Network",
-      "date": "18.03.2021",
+      "date": "2021-03-18",
       "paper": "https://hacken.io/wp-content/uploads/2021/05/KyberNetwork_18052021SCAudit_Report.pdf"
     },
     {
       "id": 7,
       "auditor": "Quantstamp",
       "auditee": "Compound",
-      "date": "04.12.2020",
+      "date": "2020-12-04",
       "paper": "https://certificate.quantstamp.com/full/compound-protocol.pdf"
     },
     {
       "id": 8,
       "auditor": "Quantstamp",
       "auditee": "Maker",
-      "date": "11.05.2021",
+      "date": "2021-05-11",
       "paper": "https://certificate.quantstamp.com/full/maker-dao-liquidations-2-0.pdf"
     },
     {
       "id": 9,
       "auditor": "Quantstamp",
       "auditee": "Curve",
-      "date": "20.10.2020",
+      "date": "2020-10-20",
       "paper": "https://certificate.quantstamp.com/full/curve-finance-diff.pdf"
     },
     {
       "id": 10,
       "auditor": "OpenZeppelin",
       "auditee": "Compound",
-      "date": "20.07.2022",
+      "date": "2022-07-22",
       "paper": "https://blog.openzeppelin.com/compound-iii-audit/"
     },
     {
       "id": 11,
       "auditor": "OpenZeppelin",
       "auditee": "Coinbase",
-      "date": "24.08.2022",
+      "date": "2022-08-24",
       "paper": "https://blog.openzeppelin.com/coinbase-liquid-staking-token-audit/"
     },
     {
       "id": 12,
       "auditor": "OpenZeppelin",
       "auditee": "Aave",
-      "date": "15.01.2020",
+      "date": "2020-01-15",
       "paper": "https://blog.openzeppelin.com/aave-protocol-audit/"
     },
     {
       "id": 13,
       "auditor": "OpenZeppelin",
       "auditee": "1INCH",
-      "date": "13.11.2020",
+      "date": "2020-11-13",
       "paper": "https://blog.openzeppelin.com/1inch-exchange-audit/"
     },
     {
       "id": 14,
       "auditor": "Trail of Bits",
       "auditee": "Compound",
-      "date": "28.02.2020",
+      "date": "2020-02-28",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/compound-governance.pdf"
     },
     {
       "id": 15,
       "auditor": "Trail of Bits",
       "auditee": "Aave",
-      "date": "25.09.2019",
+      "date": "2019-09-25",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/aaveprotocol.pdf"
     },
     {
       "id": 16,
       "auditor": "Trail of Bits",
       "auditee": "CurveDAO",
-      "date": "10.07.2020",
+      "date": "2020-07-10",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/CurveDAO.pdf"
     },
     {
       "id": 17,
       "auditor": "Trail of Bits",
       "auditee": "Balancer",
-      "date": "05.04.2021",
+      "date": "2021-04-04",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/2021-04-balancer-balancerv2-securityreview.pdf"
     },
     {
       "id": 18,
       "auditor": "Trail of Bits",
       "auditee": "Uniswap",
-      "date": "12.03.2021",
+      "date": "2021-03-12",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/UniswapV3Core.pdf"
     },
     {
       "id": 19,
       "auditor": "ConsenSys Diligence",
       "auditee": "Aave",
-      "date": "01.08.2020",
+      "date": "2020-08-01",
       "paper": "https://consensys.net/diligence/audits/2020/08/aave-governance-dao/"
     },
     {
       "id": 20,
       "auditor": "ConsenSys Diligence",
       "auditee": "1INCH",
-      "date": "15.08.2022",
+      "date": "2022-08-15",
       "paper": "https://consensys.net/diligence/audits/2022/08/1inch-exchange-aggregationrouter-v5/"
     },
     {
       "id": 21,
       "auditor": "ConsenSys Diligence",
       "auditee": "Balancer",
-      "date": "04.05.2020",
+      "date": "2020-05-04",
       "paper": "https://consensys.net/diligence/audits/2020/05/balancer-finance/"
     },
     {
       "id": 22,
       "auditor": "Kudelski Security",
       "auditee": "Disatok",
-      "date": "01.06.2022",
+      "date": "2022-06-01",
       "paper": "https://kudelskisecurity.com/wp-content/uploads/Disatok-Disa-Token-Security-Assessment-v3.0.pdf"
     },
     {
       "id": 23,
       "auditor": "ChainSecurity",
       "auditee": "Maker",
-      "date": "10.01.2023",
+      "date": "2023-01-10",
       "paper": "https://chainsecurity.com/wp-content/uploads/2023/01/ChainSecurity_MakerDAO_GemJoin9_for_PAXG_Smart-Contract-audit.pdf"
     },
     {
       "id": 24,
       "auditor": "ChainSecurity",
       "auditee": "1INCH",
-      "date": "19.12.2022",
+      "date": "2022-12-19",
       "paper": "https://chainsecurity.com/wp-content/uploads/2023/03/1inch-Smart-Contract-Audit-Limit-Order-Settlement-ChainSecurity.pdf"
     },
     {
       "id": 25,
       "auditor": "ChainSecurity",
       "auditee": "Uniswap",
-      "date": "18.11.2022",
+      "date": "2022-11-18",
       "paper": "https://chainsecurity.com/wp-content/uploads/2022/11/ChainSecurity_Uniswap_Permit2_audit.pdf"
     },
     {
       "id": 26,
       "auditor": "ChainSecurity",
       "auditee": "Aave",
-      "date": "26.07.2022",
+      "date": "2022-07-26",
       "paper": "https://chainsecurity.com/wp-content/uploads/2022/10/ChainSecurity_Aave_Bridge_Executors_audit.pdf"
     },
     {
       "id": 27,
       "auditor": "ChainSecurity",
       "auditee": "Compound",
-      "date": "30.05.2022",
+      "date": "2022-05-30",
       "paper": "https://chainsecurity.com/wp-content/uploads/2022/07/ChainSecurity_Compound_Comet_audit_May-30th-2022-1.pdf"
     },
     {
       "id": 28,
       "auditor": "PeckShield",
       "auditee": "Aave",
-      "date": "10.01.2022",
+      "date": "2022-01-10",
       "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-AaveV3-v1.0.pdf"
     },
     {
       "id": 29,
       "auditor": "PeckShield",
       "auditee": "Maker",
-      "date": "04.10.2019",
+      "date": "2019-10-04",
       "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/maker_audit_report_2019_16_en_1_0.pdf"
     },
     {
       "id": 30,
       "auditor": "PeckShield",
       "auditee": "PancakeSwap",
-      "date": "29.03.2023",
+      "date": "2023-03-29",
       "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-PancakeSwapV3-v1.0.pdf"
     }
   ]

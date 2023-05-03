@@ -3,9 +3,9 @@ import MainNavbar from './components/MainNavbar';
 
 const Layout = () => {
   return (
-    <div className="d-flex flex-column">
+    <div>
       <MainNavbar />
-      <div className="container flex-fill pt-5">
+      <div className="container pt-5">
         <Outlet />
       </div>
     </div>
