@@ -21,6 +21,14 @@ export const getAuditsByAuditee = (auditee: string) => {
   return data.audits.filter((audit) => audit.auditee === auditee);
 };
 
+export const getEconomicDescription = () => {
+  return data.auditorDescription.economic;
+};
+
+export const getSecurityDescription = () => {
+  return data.auditorDescription.security;
+};
+
 export const getFilteredAndSortedAudits = (
   filterQuery: string,
   sortType: string

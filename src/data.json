@@ -1,10 +1,14 @@
 {
+  "auditorDescription": {
+    "economic": "Economic audits are performed by auditors who specialize in the economic design of a protocol. They are able to analyze the economic incentives of a protocol and determine if they are aligned with the goals of the protocol.",
+    "security": "Security audits are performed by auditors who specialize in the security of a protocol. They are able to analyze the code of a protocol and determine if there are any vulnerabilities that could be exploited by malicious actors."
+  },
   "auditors": [
     {
       "id": 1,
       "name": "Gauntlet",
       "type": "Economic",
-      "projects": "Not Stated",
+      "projects": "9",
       "mcap": "$38B+",
       "clients": ["Aave", "Maker", "Compound", "Sushiswap", "Balancer"],
       "chains": ["Ethereum", "Polygon"],

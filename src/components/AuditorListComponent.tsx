@@ -1,6 +1,18 @@
-import { Badge, Button, Card, Modal } from 'react-bootstrap';
+import {
+  Badge,
+  Button,
+  Card,
+  Modal,
+  OverlayTrigger,
+  Tooltip,
+} from 'react-bootstrap';
 import { Auditor } from '../utils/types';
 import { useState } from 'react';
+import { InfoCircle } from 'react-bootstrap-icons';
+import {
+  getEconomicDescription,
+  getSecurityDescription,
+} from '../utils/data.service';
 
 export interface AuditorProps {
   auditor: Auditor;
@@ -31,7 +43,21 @@ const AuditorListComponent = ({ auditor }: AuditorProps) => {
               text={auditor.type === 'Economic' ? 'dark' : 'light'}
             >
               {auditor.type}
-            </Badge>
+            </Badge>{' '}
+            <OverlayTrigger
+              placement={'right'}
+              overlay={
+                <Tooltip id={`tooltip-right`}>
+                  {auditor.type === 'Economic'
+                    ? getEconomicDescription()
+                    : getSecurityDescription()}
+                </Tooltip>
+              }
+            >
+              <span>
+                <InfoCircle />
+              </span>
+            </OverlayTrigger>
           </h5>
           <p>
             Number of projects audited: <strong>{auditor.projects}</strong>
@@ -55,6 +81,16 @@ const AuditorListComponent = ({ auditor }: AuditorProps) => {
               {auditor.website}
             </a>
           </p>
+          {auditor.name !== 'Gauntlet' && (
+            <p className="text-secondary">
+              <small>
+                Source: CoinGecko. 11 Best Smart Contract Auditing Companies{' '}
+                <br />
+                https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies,
+                2023.
+              </small>
+            </p>
+          )}
         </Modal.Body>
         <Modal.Footer>
           <Button size="sm" onClick={() => setModalShow(false)}>
