@@ -403,6 +403,223 @@
       "auditee": "Aave",
       "date": "2022-10-07",
       "paper": "https://governance.aave.com/t/arc-risk-parameter-updates-for-aave-v2-and-aave-arc-fireblocks-2022-10-06/10201"
+    },
+    {
+      "id": 41,
+      "auditor": "SlowMist",
+      "auditee": "PancakeSwap",
+      "date": "2023-03-07",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20PancakeSwap_v3_en-us.pdf"
+    },
+    {
+      "id": 42,
+      "auditor": "SlowMist",
+      "auditee": "CakeVault",
+      "date": "2021-05-21",
+      "paper": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20CakeVault_en-us.pdf"
+    },
+    {
+      "id": 43,
+      "auditor": "SlowMist",
+      "auditee": "Shield",
+      "date": "2021-03-10",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20Shield_en-us.pdf"
+    },
+    {
+      "id": 44,
+      "auditor": "SlowMist",
+      "auditee": "MoonSwap",
+      "date": "2020-08-25",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20MoonSwap_en-us.pdf"
+    },
+    {
+      "id": 45,
+      "auditor": "SlowMist",
+      "auditee": "OneSwap",
+      "date": "2022-10-07",
+      "paper": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20OneSwap_en-us.pdf"
+    },
+    {
+      "id": 46,
+      "auditor": "SlowMist",
+      "auditee": "LightDAO",
+      "date": "2023-02-03",
+      "paper": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20LightDAO_en-us.pdf"
+    },
+    {
+      "id": 47,
+      "auditor": "SlowMist",
+      "auditee": "SubDAO",
+      "date": "2022-05-30",
+      "paper": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20SubDao_en-us.pdf"
+    },
+    {
+      "id": 48,
+      "auditor": "SlowMist",
+      "auditee": "earning.farm",
+      "date": "2021-02-18",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20earning.farm.pdf"
+    },
+    {
+      "id": 49,
+      "auditor": "SlowMist",
+      "auditee": "CheersUp",
+      "date": "2022-04.27",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20CheersUp_en-us.pdf"
+    },
+    {
+      "id": 50,
+      "auditor": "SlowMist",
+      "auditee": "AnySwap",
+      "date": "2020-07-13",
+      "paper": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20Anyswap_en-us.pdf"
+    },
+    {
+      "id": 51,
+      "auditor": "Hacken",
+      "auditee": "Coinweb",
+      "date": "2021-12-22",
+      "paper": "https://hacken.io/wp-content/uploads/2021/12/Coinweb_22122021SCAudit_Report_4.pdf"
+    },
+    {
+      "id": 52,
+      "auditor": "Hacken",
+      "auditee": "Prometeus Labs Ventures",
+      "date": "2022-04-05",
+      "paper": "https://hacken.io/wp-content/uploads/2022/10/PrometeusLabsVentures_05042022SCAudit_Report_3.pdf"
+    },
+    {
+      "id": 53,
+      "auditor": "Hacken",
+      "auditee": "Request Network",
+      "date": "2022-04-07",
+      "paper": "https://hacken.io/wp-content/uploads/2022/05/Request_TokenSCAudit_Report.pdf"
+    },
+    {
+      "id": 54,
+      "auditor": "Hacken",
+      "auditee": "Humans Token AG",
+      "date": "2021-12-06",
+      "paper": "https://hacken.io/wp-content/uploads/2021/12/HumansTokenAG_06122021SCAudit_Report_3.pdf"
+    },
+    {
+      "id": 55,
+      "auditor": "Quantstamp",
+      "auditee": "Vault Inc.",
+      "date": "2022-01-08",
+      "paper": "https://certificate.quantstamp.com/full/vault-inc.pdf"
+    },
+    {
+      "id": 56,
+      "auditor": "Quantstamp",
+      "auditee": "Oasys",
+      "date": "2022-08-11",
+      "paper": "https://certificate.quantstamp.com/full/oasys.pdf"
+    },
+    {
+      "id": 57,
+      "auditor": "Quantstamp",
+      "auditee": "Origami",
+      "date": "2022-01-29",
+      "paper": "https://certificate.quantstamp.com/full/origami-governance-membership-tokens.pdf"
+    },
+    {
+      "id": 58,
+      "auditor": "Quantstamp",
+      "auditee": "Sturdy",
+      "date": "2022-12-13",
+      "paper": "https://certificate.quantstamp.com/full/sturdy.pdf"
+    },
+    {
+      "id": 59,
+      "auditor": "Quantstamp",
+      "auditee": "NFT Market",
+      "date": "2022-08-15",
+      "paper": "https://certificate.quantstamp.com/full/nft-market.pdf"
+    },
+    {
+      "id": 60,
+      "auditor": "Quantstamp",
+      "auditee": "Meta Studio",
+      "date": "2022-07-22",
+      "paper": "https://certificate.quantstamp.com/full/meta-studio.pdf"
+    },
+    {
+      "id": 61,
+      "auditor": "OpenZeppelin",
+      "auditee": "Ink!",
+      "date": "2023-03-31",
+      "paper": "https://blog.openzeppelin.com/security-review-ink-cargo-contract/"
+    },
+    {
+      "id": 62,
+      "auditor": "OpenZeppelin",
+      "auditee": "Ethereum",
+      "date": "2023-04-12",
+      "paper": "https://blog.openzeppelin.com/eip-4337-ethereum-account-abstraction-incremental-audit/"
+    },
+    {
+      "id": 63,
+      "auditor": "OpenZeppelin",
+      "auditee": "Coinbase",
+      "date": "2022-08-24",
+      "paper": "https://blog.openzeppelin.com/coinbase-liquid-staking-token-audit/"
+    },
+    {
+      "id": 64,
+      "auditor": "OpenZeppelin",
+      "auditee": "Origin Protocol",
+      "date": "2022-07-01",
+      "paper": "https://blog.openzeppelin.com/origin-governance-audit/"
+    },
+    {
+      "id": 65,
+      "auditor": "OpenZeppelin",
+      "auditee": "Tally",
+      "date": "2021-12-06",
+      "paper": "https://blog.openzeppelin.com/tally-safeguard-audit/"
+    },
+    {
+      "id": 66,
+      "auditor": "OpenZeppelin",
+      "auditee": "Compound",
+      "date": "2022-03-21",
+      "paper": "https://blog.openzeppelin.com/compound-comprehensive-protocol-audit/"
+    },
+    {
+      "id": 67,
+      "auditor": "Trail of Bits",
+      "auditee": "Chainport",
+      "date": "2022-07-05",
+      "paper": "https://github.com/trailofbits/publications/blob/master/reviews/2023-02-chainport-securityreview.pdf"
+    },
+    {
+      "id": 68,
+      "auditor": "Trail of Bits",
+      "auditee": "Liquity",
+      "date": "2021-01-13",
+      "paper": "https://github.com/trailofbits/publications/blob/master/reviews/Liquity.pdf"
+    },
+    {
+      "id": 69,
+      "auditor": "Trail of Bits",
+      "auditee": "Rocket Pool",
+      "date": "2021-09-09",
+      "paper": "https://github.com/trailofbits/publications/blob/master/reviews/RocketPool.pdf"
+    },
+    {
+      "id": 70,
+      "auditor": "Trail of Bits",
+      "auditee": "Yield Protocol",
+      "date": "2020-08-21",
+      "paper": "https://github.com/trailofbits/publications/blob/master/reviews/YieldProtocol.pdf"
+    },
+    {
+      "id": 71,
+      "auditor": "Trail of Bits",
+      "auditee": "Advanced Blockchain",
+      "date": "2021-04-19",
+      "paper": "https://github.com/trailofbits/publications/blob/master/reviews/AdvancedBlockchain.pdf"
     }
   ]
 }
