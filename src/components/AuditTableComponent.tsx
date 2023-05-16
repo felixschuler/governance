@@ -86,7 +86,7 @@ const AuditTableComponent = ({
           })}
         </tbody>
       </Table>
-      <div className="d-flex justify-content-center gap-5">
+      <div className="d-flex justify-content-center gap-5 mb-5">
         <div className="d-flex align-items-center">
           <span className="flex-shrink-0 me-2">Audits per page:</span>{' '}
           <Form.Select

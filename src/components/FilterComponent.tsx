@@ -33,7 +33,7 @@ const FilterComponent = ({
 
   return (
     <Row>
-      <Col xs={3}>
+      <Col className="mb-2 mb-lg-0" xs={12} lg={4}>
         <Form.Group controlId="filter.nameSearch">
           <Form.Label>Filter by auditee or auditor:</Form.Label>
           <Form.Control
@@ -44,9 +44,9 @@ const FilterComponent = ({
           />
         </Form.Group>
       </Col>
-      <Col xs={6}>
+      <Col className="mb-2 mb-lg-0" xs={12} lg={4}>
         <Row className="justify-content-center">
-          <Col xs={4}>
+          <Col xs={6}>
             <Form.Group controlId="filter.nameSearch">
               <Form.Label>From: </Form.Label>
               <Form.Control
@@ -62,7 +62,7 @@ const FilterComponent = ({
               />
             </Form.Group>
           </Col>
-          <Col xs={4}>
+          <Col xs={6}>
             <Form.Group controlId="filter.nameSearch">
               <Form.Label>To:</Form.Label>
               <Form.Control
@@ -80,7 +80,7 @@ const FilterComponent = ({
           </Col>
         </Row>
       </Col>
-      <Col xs={3}>
+      <Col xs={12} lg={4}>
         <Form.Group controlId="filter.nameSearch">
           <Form.Label>Sort audits by:</Form.Label>
           <Form.Select
