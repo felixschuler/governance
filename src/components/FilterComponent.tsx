@@ -1,6 +1,6 @@
 import { Col, Form, Row } from 'react-bootstrap';
 
-export interface FilterSectionComponentProps {
+export interface FilterComponentProps {
   filterQuery: string;
   sortType: string;
   minDate: string;
@@ -11,7 +11,7 @@ export interface FilterSectionComponentProps {
   onMaxDateChange: (maxDate: string) => void;
 }
 
-const FilterSectionComponent = ({
+const FilterComponent = ({
   filterQuery,
   sortType,
   minDate,
@@ -20,7 +20,7 @@ const FilterSectionComponent = ({
   onSortTypeChange,
   onMinDateChange,
   onMaxDateChange,
-}: FilterSectionComponentProps) => {
+}: FilterComponentProps) => {
   const sortOptions = [
     { value: 'NONE', label: 'None' },
     { value: 'AUDITEE_ASC', label: 'Auditee ascending' },
@@ -53,7 +53,7 @@ const FilterSectionComponent = ({
                 type="date"
                 value={minDate}
                 onChange={(e) => onMinDateChange(e.target.value)}
-                min={new Date('2021-01-01').toISOString().split('T')[0]}
+                min={new Date('2018-01-01').toISOString().split('T')[0]}
                 max={
                   maxDate !== ''
                     ? new Date(maxDate).toISOString().split('T')[0]
@@ -72,7 +72,7 @@ const FilterSectionComponent = ({
                 min={
                   minDate !== ''
                     ? new Date(minDate).toISOString().split('T')[0]
-                    : new Date('2021-01-01').toISOString().split('T')[0]
+                    : new Date('2018-01-01').toISOString().split('T')[0]
                 }
                 max={new Date().toISOString().split('T')[0]}
               />
@@ -100,4 +100,4 @@ const FilterSectionComponent = ({
   );
 };
 
-export default FilterSectionComponent;
+export default FilterComponent;

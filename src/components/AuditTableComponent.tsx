@@ -1,6 +1,8 @@
-import { Table } from 'react-bootstrap';
+import { Form, Table } from 'react-bootstrap';
 import { Audit } from '../utils/types';
 import AuditListComponent from './AuditListComponent';
+import PaginationComponent from './PaginationComponent';
+import { useState } from 'react';
 
 export interface AuditTableComponentProps {
   audits: Audit[];
@@ -17,7 +19,15 @@ const AuditTableComponent = ({
   minDate,
   maxDate,
 }: AuditTableComponentProps) => {
+  const [auditsPerPage, setAuditsPerPage] = useState(10);
+  const [page, setPage] = useState(1);
   const filteredAudits: Audit[] = [];
+
+  const pageOptions = [
+    { value: 5, label: '5' },
+    { value: 10, label: '10' },
+    { value: 20, label: '20' },
+  ];
 
   audits.forEach((audit: Audit) => {
     if (
@@ -49,22 +59,57 @@ const AuditTableComponent = ({
     }
   });
 
+  const indexOfLastAudit = page * auditsPerPage;
+  const indexOfFirstAudit = indexOfLastAudit - auditsPerPage;
+  if (indexOfFirstAudit > filteredAudits.length) {
+    setPage(1);
+  }
+  const paginatedAudits = filteredAudits.slice(
+    indexOfFirstAudit,
+    indexOfLastAudit
+  );
+
   return (
-    <Table striped responsive="sm">
-      <thead>
-        <tr>
-          <th>Auditee</th>
-          <th>Auditor</th>
-          <th>Date</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        {filteredAudits.map((audit: Audit) => {
-          return <AuditListComponent key={audit.id} audit={audit} />;
-        })}
-      </tbody>
-    </Table>
+    <>
+      <Table striped responsive="sm">
+        <thead>
+          <tr>
+            <th>Auditee</th>
+            <th>Auditor</th>
+            <th>Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {paginatedAudits.map((audit: Audit) => {
+            return <AuditListComponent key={audit.id} audit={audit} />;
+          })}
+        </tbody>
+      </Table>
+      <div className="d-flex justify-content-center gap-5">
+        <div className="d-flex align-items-center">
+          <span className="flex-shrink-0 me-2">Audits per page:</span>{' '}
+          <Form.Select
+            aria-label="Select audits per page"
+            value={auditsPerPage}
+            onChange={(e) => setAuditsPerPage(parseInt(e.target.value))}
+          >
+            {pageOptions.map((option) => {
+              return (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              );
+            })}
+          </Form.Select>
+        </div>
+        <PaginationComponent
+          page={page}
+          pages={Math.ceil(filteredAudits.length / auditsPerPage)}
+          onPageChange={setPage}
+        />
+      </div>
+    </>
   );
 };
 
