@@ -624,6 +624,125 @@
       "auditee": "Advanced Blockchain",
       "date": "2021-04-19",
       "paper": "https://github.com/trailofbits/publications/blob/master/reviews/AdvancedBlockchain.pdf"
+    },
+    {
+      "id": 72,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Skale Network",
+      "date": "2020-10-19",
+      "paper": "https://consensys.net/diligence/audits/2020/10/skale-network/"
+    },
+    {
+      "id": 73,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Fei Protocol",
+      "date": "2021-01-25",
+      "paper": "https://consensys.net/diligence/audits/2021/01/fei-protocol/"
+    },
+    {
+      "id": 74,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Socket",
+      "date": "2023-02-13",
+      "paper": "https://consensys.net/diligence/audits/2023/02/socket/"
+    },
+    {
+      "id": 75,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Forta Delegated Staking",
+      "date": "2022-11-01",
+      "paper": "https://consensys.net/diligence/audits/2022/11/forta-delegated-staking/"
+    },
+    {
+      "id": 76,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Idle Finance",
+      "date": "2021-06-01",
+      "paper": "https://consensys.net/diligence/audits/2021/06/idle-finance/"
+    },
+    {
+      "id": 77,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Umbra",
+      "date": "2021-03-22",
+      "paper": "https://consensys.net/diligence/audits/2021/03/umbra-smart-contracts/"
+    },
+    {
+      "id": 78,
+      "auditor": "ConsenSys Diligence",
+      "auditee": "Notional Finance",
+      "date": "2022-07-04",
+      "paper": "https://consensys.net/diligence/audits/2022/07/notional-finance/"
+    },
+    {
+      "id": 79,
+      "auditor": "Kudelski Security",
+      "auditee": "Multiplier Finance",
+      "date": "2021-05-25",
+      "paper": "https://kudelskisecurity.com/wp-content/uploads/Multiplier.Finance-MCL-Threat-Model.pdf"
+    },
+    {
+      "id": 80,
+      "auditor": "ChainSecurity",
+      "auditee": "Yearn",
+      "date": "2022-05-30",
+      "paper": "https://chainsecurity.com/wp-content/uploads/2023/05/Yearn-Smart-Contract-Audit_V3_Vaults_-ChainSecurity.pdf"
+    },
+    {
+      "id": 81,
+      "auditor": "ChainSecurity",
+      "auditee": "TrueFi",
+      "date": "2023-05-04",
+      "paper": "https://chainsecurity.com/wp-content/uploads/2023/01/ChainSecurity_TrueFi_Carbon_-Smart-Contract-Audit.pdf"
+    },
+    {
+      "id": 82,
+      "auditor": "ChainSecurity",
+      "auditee": "Carbon",
+      "date": "2023-04-10",
+      "paper": "https://chainsecurity.com/wp-content/uploads/2023/04/Bancor-Smart-Contract-Audit-_-Carbon-_-ChainSecurity.pdf"
+    },
+    {
+      "id": 83,
+      "auditor": "ChainSecurity",
+      "auditee": "Polygon",
+      "date": "2023-04-18",
+      "paper": "https://chainsecurity.com/wp-content/uploads/2023/04/Polygon_PoS_Portal_-Smart-Contract-Audit_ChainSecurity.pdf"
+    },
+    {
+      "id": 84,
+      "auditor": "ChainSecurity",
+      "auditee": "Polymarket",
+      "date": "2022-11-03",
+      "paper": "https://chainsecurity.com/wp-content/uploads/2023/01/Polymarket-Exchange-Smart-Contract-audit-by-ChainSecurity-1.pdf"
+    },
+    {
+      "id": 85,
+      "auditor": "PeckShield",
+      "auditee": "Duneswap",
+      "date": "2022-02-26",
+      "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Duneswap-v1.0.pdf"
+    },
+    {
+      "id": 86,
+      "auditor": "PeckShield",
+      "auditee": "BoringDAO",
+      "date": "2020-12-28",
+      "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-BoringDAO-1.0-2020-89.pdf"
+    },
+    {
+      "id": 87,
+      "auditor": "PeckShield",
+      "auditee": "AirSwap",
+      "date": "2013-05-02",
+      "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-AirSwap-Staking-v1.0.pdf"
+    },
+    {
+      "id": 88,
+      "auditor": "PeckShield",
+      "auditee": "Wombat",
+      "date": "2023-04-01",
+      "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-WombatV4-v1.0.pdf"
     }
   ]
 }
