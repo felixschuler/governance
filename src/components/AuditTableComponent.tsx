@@ -24,9 +24,9 @@ const AuditTableComponent = ({
   const filteredAudits: Audit[] = [];
 
   const pageOptions = [
-    { value: 5, label: '5' },
-    { value: 10, label: '10' },
-    { value: 20, label: '20' },
+    { value: 5, label: '5 / page' },
+    { value: 10, label: '10 / page' },
+    { value: 20, label: '20 / page' },
   ];
 
   audits.forEach((audit: Audit) => {
@@ -86,9 +86,8 @@ const AuditTableComponent = ({
           })}
         </tbody>
       </Table>
-      <div className="d-flex justify-content-center gap-5 mb-5">
-        <div className="d-flex align-items-center">
-          <span className="flex-shrink-0 me-2">Audits per page:</span>{' '}
+      <div className="d-flex mb-5 justify-content-sm-between flex-sm-row flex-column-reverse align-items-center gap-3">
+        <div>
           <Form.Select
             aria-label="Select audits per page"
             value={auditsPerPage}
