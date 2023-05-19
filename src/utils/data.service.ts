@@ -80,3 +80,19 @@ const sortAudits = (audits: Audit[], sortType: string) => {
 
   return sortedAudits;
 };
+
+// convert audits to csv
+export const convertAuditsToCsv = (audits: Audit[]) => {
+  const auditsCopy = [...audits];
+
+  const titles = 'Auditee,Auditor,Date,Paper';
+
+  const auditsCsv = auditsCopy.map((audit) => {
+    const { auditee, auditor, date, paper } = audit;
+    return `${auditee},${auditor},${date},${paper}`;
+  });
+
+  const auditsCsvString = [titles, ...auditsCsv].join('\n');
+
+  return auditsCsvString;
+};

@@ -20,18 +20,16 @@ const Audits = ({ audits }: AuditsProps) => {
   return (
     <div>
       <h1 className="display-2 mb-5 text-center">Audits</h1>
-      <div className="mb-3">
-        <FilterComponent
-          filterQuery={filterQuery}
-          sortType={sortType}
-          minDate={minDate}
-          maxDate={maxDate}
-          onFilterQueryChange={setFilterQuery}
-          onSortTypeChange={setSortType}
-          onMinDateChange={setMinDate}
-          onMaxDateChange={setMaxDate}
-        />
-      </div>
+      <FilterComponent
+        filterQuery={filterQuery}
+        sortType={sortType}
+        minDate={minDate}
+        maxDate={maxDate}
+        onFilterQueryChange={setFilterQuery}
+        onSortTypeChange={setSortType}
+        onMinDateChange={setMinDate}
+        onMaxDateChange={setMaxDate}
+      />
       <AuditTableComponent
         audits={audits}
         filterQuery={filterQuery}

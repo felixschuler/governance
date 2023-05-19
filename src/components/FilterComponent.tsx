@@ -32,7 +32,7 @@ const FilterComponent = ({
   ];
 
   return (
-    <Row>
+    <Row className="mb-3">
       <Col className="mb-2 mb-lg-0" xs={12} lg={4}>
         <Form.Group controlId="filter.nameSearch">
           <Form.Label>Filter by auditee or auditor:</Form.Label>

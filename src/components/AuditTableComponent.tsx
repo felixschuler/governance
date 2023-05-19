@@ -3,6 +3,7 @@ import { Audit } from '../utils/types';
 import AuditListComponent from './AuditListComponent';
 import PaginationComponent from './PaginationComponent';
 import { useState } from 'react';
+import DownloadComponent from './DownloadComponent';
 
 export interface AuditTableComponentProps {
   audits: Audit[];
@@ -71,6 +72,7 @@ const AuditTableComponent = ({
 
   return (
     <>
+      <DownloadComponent audits={filteredAudits} />
       <Table striped responsive="sm">
         <thead>
           <tr>
