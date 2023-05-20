@@ -743,6 +743,41 @@
       "auditee": "Wombat",
       "date": "2023-04-01",
       "paper": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-WombatV4-v1.0.pdf"
+    },
+    {
+      "id": 89,
+      "auditor": "CertiK",
+      "auditee": "PancakeSwap",
+      "date": "2020-10-13",
+      "paper": "https://skynet.certik.com/projects/pancakeswap"
+    },
+    {
+      "id": 90,
+      "auditor": "CertiK",
+      "auditee": "1INCH",
+      "date": "2021-11-25",
+      "paper": "https://skynet.certik.com/projects/1inch"
+    },
+    {
+      "id": 91,
+      "auditor": "CertiK",
+      "auditee": "Binance",
+      "date": "2023-02-03",
+      "paper": "https://skynet.certik.com/projects/binance"
+    },
+    {
+      "id": 92,
+      "auditor": "CertiK",
+      "auditee": "Aave",
+      "date": "2020-12-02",
+      "paper": "https://skynet.certik.com/projects/aave"
+    },
+    {
+      "id": 93,
+      "auditor": "CertiK",
+      "auditee": "Frontier",
+      "date": "2020-09-11",
+      "paper": "https://skynet.certik.com/projects/frontier"
     }
   ]
 }
