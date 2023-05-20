@@ -11,13 +11,15 @@ const Auditors = ({ auditors }: AuditorsProps) => {
     <div>
       <h1 className="display-2 mb-5 text-center">Auditors</h1>
       <Row>
-        {auditors.map((auditor: Auditor) => {
-          return (
-            <Col key={auditor.id} sm={6} md={4} xl={3} className="mb-3">
-              <AuditorListComponent auditor={auditor} />
-            </Col>
-          );
-        })}
+        {auditors
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((auditor: Auditor) => {
+            return (
+              <Col key={auditor.id} sm={6} md={4} xl={3} className="mb-3">
+                <AuditorListComponent auditor={auditor} />
+              </Col>
+            );
+          })}
       </Row>
     </div>
   );
