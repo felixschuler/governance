@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
   Badge,
   Button,
@@ -6,13 +7,12 @@ import {
   OverlayTrigger,
   Tooltip,
 } from 'react-bootstrap';
-import { Auditor } from '../utils/types';
-import { useState } from 'react';
 import { InfoCircle } from 'react-bootstrap-icons';
 import {
   getEconomicDescription,
   getSecurityDescription,
 } from '../utils/data.service';
+import { Auditor } from '../utils/types';
 
 export interface AuditorProps {
   auditor: Auditor;
@@ -60,34 +60,52 @@ const AuditorListComponent = ({ auditor }: AuditorProps) => {
             </OverlayTrigger>
           </h5>
           <p>
-            Number of projects audited: <strong>{auditor.projects}</strong>
+            <strong>Number of clients:</strong> {auditor.clients}
           </p>
           <p>
-            Market cap of projects audited: <strong>{auditor.mcap}</strong>
+            <strong>Notable clients:</strong>{' '}
+            {auditor.notableClients.join(', ')}
           </p>
           <p>
-            Major clients audited:{' '}
-            <strong>
-              {auditor.clients.map((client) => client).join(', ')}
-            </strong>
+            <strong>Key performance indicators:</strong>{' '}
+            {auditor.kpis.length === 0 ? (
+              'None stated'
+            ) : (
+              <ul>
+                {auditor.kpis.map((kpi) => (
+                  <li key={kpi}>{kpi}</li>
+                ))}
+              </ul>
+            )}
           </p>
           <p>
-            Supported blockchains:{' '}
-            <strong>{auditor.chains.map((chain) => chain).join(', ')}</strong>
-          </p>
-          <p>
-            Website:{' '}
+            <strong>Website:</strong>{' '}
             <a href={auditor.website} target="_blank" rel="noopener noreferrer">
               {auditor.website}
             </a>
           </p>
-          {auditor.name !== 'Gauntlet' && (
+          <p>
+            <strong>Reports:</strong>{' '}
+            <a
+              href={auditor.reportsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {auditor.reportsUrl}
+            </a>
+          </p>
+          {auditor.source && (
             <p className="text-secondary">
               <small>
-                Source: CoinGecko. 11 Best Smart Contract Auditing Companies{' '}
-                <br />
-                https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies,
-                2023.
+                Source: {auditor.source.title} <br />
+                <a
+                  href={auditor.source.url}
+                  className="text-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {auditor.source.url}
+                </a>
               </small>
             </p>
           )}

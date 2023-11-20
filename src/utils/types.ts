@@ -7,11 +7,12 @@ export type Auditor = {
   id: number;
   name: string;
   type: string;
-  projects: string;
-  mcap: string;
-  clients: string[];
-  chains: string[];
+  clients: string;
+  notableClients: string[];
+  kpis: string[];
   website: string;
+  reportsUrl: string;
+  source?: Source;
 };
 
 export type Audit = {
@@ -20,4 +21,9 @@ export type Audit = {
   auditee: string;
   date: string;
   paper: string;
+};
+
+type Source = {
+  title: string;
+  url: string;
 };

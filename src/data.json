@@ -8,123 +8,282 @@
       "id": 1,
       "name": "Gauntlet",
       "type": "Economic",
-      "projects": "9",
-      "mcap": "$38B+",
-      "clients": ["Aave", "Maker", "Compound", "Sushiswap", "Balancer"],
-      "chains": ["Ethereum", "Polygon"],
-      "website": "https://gauntlet.network/"
+      "clients": "7",
+      "notableClients": ["Compound", "Aave", "Maker", "Uniswap"],
+      "kpis": [
+        "27 research papers published",
+        "$9 billion client assets protected",
+        "250 billion predictive data points"
+      ],
+      "website": "https://gauntlet.network/",
+      "reportsUrl": "",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 2,
-      "name": "Hacken",
+      "name": "Slowmist",
       "type": "Security",
-      "projects": "700+",
-      "mcap": "$100B+",
-      "clients": ["Binance", "Huobi", "1INCH", "WhiteBIT", "Kyber Network"],
-      "chains": [
-        "Ethereum",
-        "Polygon",
-        "Solana",
-        "Avalanche",
-        "Binance Smart Chain"
-      ],
-      "website": "https://hacken.io/"
+      "clients": "100+",
+      "notableClients": ["Binance", "Crypto.com", "PancakeSwap", "1INCH"],
+      "kpis": ["1,500 well-known smart contracts audited"],
+      "website": "https://www.slowmist.com/index.html",
+      "reportsUrl": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 3,
-      "name": "CertiK",
+      "name": "Hacken",
       "type": "Security",
-      "projects": "3700+",
-      "mcap": "$364B+",
-      "clients": ["Binance", "Aave", "Terra", "Decentraland", "Polygon Chiliz"],
-      "chains": ["All Chains"],
-      "website": "https://certik.com/"
+      "clients": "1,000+",
+      "notableClients": ["Binance", "Huobi", "WhiteBIT", "1INCH"],
+      "kpis": [
+        "180+ ecosystem partners",
+        "60+ top-class engineers",
+        "0 exploits in 2022"
+      ],
+      "website": "https://hacken.io/",
+      "reportsUrl": "https://hacken.io/audits/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 4,
-      "name": "Slowmist",
+      "name": "Certik",
       "type": "Security",
-      "projects": "1000+",
-      "mcap": "$150B+",
-      "clients": ["Binance", "PancakeSwap", "Crypto.com"],
-      "chains": ["Ethereum", "Fabric", "Solana", "VeChain"],
-      "website": "https://www.slowmist.com/"
+      "clients": "4,000+",
+      "notableClients": ["Aave", "BNB Smart Chain", "Terra", "Yearn"],
+      "kpis": [
+        "$364B market cap assessed",
+        "12,807 projects monitored",
+        "60,000+ vulnerabilities detected"
+      ],
+      "website": "https://www.certik.com/",
+      "reportsUrl": "https://skynet.certik.com/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 5,
       "name": "Quantstamp",
       "type": "Security",
-      "projects": "200+",
-      "mcap": "$200B+",
-      "clients": ["Maker", "Curve", "OpenSea"],
-      "chains": ["All Chains"],
-      "website": "https://quantstamp.com/"
+      "clients": "500+",
+      "notableClients": ["Maker", "Compound", "Aave", "OpenSea"],
+      "kpis": ["$200B+ secured", "Remote 1st Company"],
+      "website": "https://quantstamp.com/",
+      "reportsUrl": "https://certificate.quantstamp.com/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 6,
-      "name": "OpenZeppelin",
+      "name": "Halborn",
       "type": "Security",
-      "projects": "100+",
-      "mcap": "$10B+",
-      "clients": [
-        "Ethereum Foundation",
-        "Aave",
-        "Compound",
-        "Coinbase",
-        "The Graph"
-      ],
-      "chains": ["All Chains"],
-      "website": "https://openzeppelin.com/"
+      "clients": "150+",
+      "notableClients": ["BlockFi", "ApeCoin", "Avalanche", "SushiSwap"],
+      "kpis": [],
+      "website": "https://www.halborn.com/",
+      "reportsUrl": "https://github.com/HalbornSecurity/PublicReports",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 7,
-      "name": "Trail of Bits",
+      "name": "OpenZeppelin",
       "type": "Security",
-      "projects": "500+",
-      "mcap": "$25B+",
-      "clients": ["Maker", "Acala", "Balancer", "Nervos"],
-      "chains": ["Ethereum", "Polkadot", "Tezos", "Arbitrum", "Polygon"],
-      "website": "https://www.trailofbits.com/"
+      "clients": "Not stated",
+      "notableClients": ["Coinbase", "Aave", "Compound", "The Graph"],
+      "kpis": [
+        "370+ audits performed",
+        "$15B+ balance held in OpenZeppelin contracts",
+        "94% of top 20 DeFi protocols use OpenZeppelin contracts"
+      ],
+      "website": "https://www.openzeppelin.com/",
+      "reportsUrl": "https://blog.openzeppelin.com/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 8,
-      "name": "ConsenSys Diligence",
+      "name": "Trail of Bits",
       "type": "Security",
-      "projects": "100+",
-      "mcap": "$11B+",
-      "clients": ["Aave", "Balancer", "Uniswap"],
-      "chains": ["Ethereum"],
-      "website": "https://consensys.net/diligence/"
+      "clients": "100+",
+      "notableClients": ["Balancer", "Aave", "Compound", "yearn.finance"],
+      "kpis": [],
+      "website": "https://www.trailofbits.com/",
+      "reportsUrl": "https://github.com/trailofbits/publications",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 9,
-      "name": "Kudelski Security",
+      "name": "Consensys Diligence",
       "type": "Security",
-      "projects": "200+",
-      "mcap": "$230B+",
-      "clients": ["Binance", "Solana", "Crypto.com", "Monero", "Zcash"],
-      "chains": ["Ethereum", "Binance Smart Chain", "Solana", "Cardano"],
-      "website": "https://www.kudelskisecurity.com/"
+      "clients": "100+",
+      "notableClients": ["Uniswap", "Aave", "0x", "Horizon"],
+      "kpis": [],
+      "website": "https://consensys.io/diligence/",
+      "reportsUrl": "https://consensys.io/diligence/audits/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 10,
-      "name": "ChainSecurity",
+      "name": "Kudelski Security",
       "type": "Security",
-      "projects": "85+",
-      "mcap": "$17B+",
-      "clients": ["Maker", "Compound", "Curve", "Kyber Network"],
-      "chains": ["All Chains"],
-      "website": "https://chainsecurity.com/"
+      "clients": "150+",
+      "notableClients": ["Binance", "Crypto.com", "Monero", "Solana"],
+      "kpis": [
+        "200+ security audits and assessments",
+        "$230B digital currency secured",
+        "500k+ audited lines of code",
+        "1000 years combined cryptography experience on staff"
+      ],
+      "website": "https://kudelskisecurity.com/",
+      "reportsUrl": "https://kudelskisecurity.com/audits/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
     },
     {
       "id": 11,
+      "name": "ChainSecurity",
+      "type": "Security",
+      "clients": "20+",
+      "notableClients": ["Maker", "Compound", "Aave", "Uniswap"],
+      "kpis": [],
+      "website": "https://chainsecurity.com/",
+      "reportsUrl": "https://chainsecurity.com/smart-contract-audit-reports/",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 12,
       "name": "PeckShield",
       "type": "Security",
-      "projects": "50+",
-      "mcap": "$26B+",
-      "clients": ["Aave", "Nervos", "Tron", "Maker", "PancakeSwap"],
-      "chains": ["Ethereum", "Binance Smart Chain", "Tron"],
-      "website": "https://peckshield.com/"
+      "clients": "40+",
+      "notableClients": ["Maker", "Aave", "PancakeSwap", "polygon"],
+      "kpis": [],
+      "website": "https://peckshield.com/",
+      "reportsUrl": "https://github.com/peckshield/publications/tree/master/audit_reports",
+      "source": {
+        "title": "11 Best Smart Contract Auditing Companies",
+        "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 13,
+      "name": "QuillAudits",
+      "type": "Security",
+      "clients": "1000+",
+      "notableClients": ["Coinbase", "Kraken", "PancakeSwap", "Uniswap"],
+      "kpis": [
+        "850+ projects secured",
+        "800K lines of code secured",
+        "$30B protected"
+      ],
+      "website": "https://www.quillaudits.com/smart-contract-audit",
+      "reportsUrl": "https://github.com/Quillhash/QuillAudit_Reports/tree/master",
+      "source": {
+        "title": "Top 7 Smart Contract Audit Companies (2023 Updated)",
+        "url": "https://cryptojobslist.com/blog/smart-contract-audit-companies"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Cyfrin",
+      "type": "Security",
+      "clients": "5",
+      "notableClients": ["sudoswap", "LinkPool", "Beanstalk", "Vyper"],
+      "kpis": ["$10Bn+ blockchain integrations"],
+      "website": "https://www.cyfrin.io/",
+      "reportsUrl": "https://github.com/Cyfrin/cyfrin-audit-reports",
+      "source": {
+        "title": "Top 10 smart contract auditing companies and services",
+        "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 15,
+      "name": "SpearBit",
+      "type": "Security",
+      "clients": "20+",
+      "notableClients": ["OpenSea", "Alchemy", "Redacted", "BadgerDAO"],
+      "kpis": [],
+      "website": "https://spearbit.com/",
+      "reportsUrl": "https://github.com/spearbit/portfolio",
+      "source": {
+        "title": "Top 10 smart contract auditing companies and services",
+        "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 16,
+      "name": "sigma prime",
+      "type": "Security",
+      "clients": "20+",
+      "notableClients": ["Aave", "Polkadot", "Chainlink", "SushiSwap"],
+      "kpis": [],
+      "website": "https://sigmaprime.io/",
+      "reportsUrl": "https://github.com/sigp/public-audits",
+      "source": {
+        "title": "Top 10 smart contract auditing companies and services",
+        "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Debaub",
+      "type": "Security",
+      "clients": "10+",
+      "notableClients": ["Ledger", "Coinbase", "Chainlink", "yearn.finance"],
+      "kpis": [],
+      "website": "https://dedaub.com/",
+      "reportsUrl": "https://github.com/Dedaub/audits",
+      "source": {
+        "title": "Top 10 smart contract auditing companies and services",
+        "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+      }
+    },
+    {
+      "id": 18,
+      "name": "code4rena",
+      "type": "Security",
+      "clients": "100+",
+      "notableClients": ["OpenSea", "Chainlink", "Aave", "The Graph"],
+      "kpis": [
+        "1,091 unique high-severity vulnerabilities",
+        "21,546 unique findings",
+        "293 audits completed"
+      ],
+      "website": "https://code4rena.com/",
+      "reportsUrl": "https://code4rena.com/reports",
+      "source": {
+        "title": "Top 10 smart contract auditing companies and services",
+        "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+      }
     }
   ],
   "audits": [
@@ -778,6 +937,466 @@
       "auditee": "Frontier",
       "date": "2020-09-11",
       "paper": "https://skynet.certik.com/projects/frontier"
+    },
+    {
+      "id": 94,
+      "auditor": "sigma prime",
+      "auditee": "Gearbox",
+      "date": "2022-04-13",
+      "paper": "https://github.com/sigp/public-audits/blob/master/gearbox/review.pdf"
+    },
+    {
+      "id": 95,
+      "auditor": "sigma prime",
+      "auditee": "SushiSwap",
+      "date": "2022-05-25",
+      "paper": "https://github.com/sigp/public-audits/blob/master/sushi/bentobox-strategies-staking-contract/review.pdf"
+    },
+    {
+      "id": 96,
+      "auditor": "sigma prime",
+      "auditee": "Tracer DAO",
+      "date": "2022-05-03",
+      "paper": "https://github.com/sigp/public-audits/blob/master/tracer/tracer-3/review.pdf"
+    },
+    {
+      "id": 97,
+      "auditor": "sigma prime",
+      "auditee": "SushiSwap",
+      "date": "2022-07-02",
+      "paper": "https://github.com/sigp/public-audits/blob/master/sushi/sushi-swap-stable-pool/review.pdf"
+    },
+    {
+      "id": 98,
+      "auditor": "sigma prime",
+      "auditee": "Ethereum Foundation",
+      "date": "2022-12-11",
+      "paper": "https://github.com/sigp/public-audits/blob/master/ethereum-foundation/ef-kzg/review.pdf"
+    },
+    {
+      "id": 99,
+      "auditor": "sigma prime",
+      "auditee": "Ethereum Foundation",
+      "date": "2023-05-13",
+      "paper": "https://github.com/sigp/public-audits/blob/master/eth-docker/review.pdf"
+    },
+    {
+      "id": 100,
+      "auditor": "sigma prime",
+      "auditee": "Aave",
+      "date": "2023-05-25",
+      "paper": "https://github.com/sigp/public-audits/blob/master/aave/aave-gov-v3/review.pdf"
+    },
+    {
+      "id": 101,
+      "auditor": "sigma prime",
+      "auditee": "Term Finance",
+      "date": "2023-02-03",
+      "paper": "https://github.com/sigp/public-audits/blob/master/term-finance/term1/review.pdf"
+    },
+    {
+      "id": 102,
+      "auditor": "sigma prime",
+      "auditee": "Aave",
+      "date": "2021-01-02",
+      "paper": "https://github.com/sigp/public-audits/blob/master/aave/aave-protocol/review.pdf"
+    },
+    {
+      "id": 103,
+      "auditor": "sigma prime",
+      "auditee": "1INCH",
+      "date": "2022-02-11",
+      "paper": "https://github.com/sigp/public-audits/blob/master/1inch/review.pdf"
+    },
+
+    {
+      "id": 104,
+      "auditor": "SpearBit",
+      "auditee": "SudoSwap",
+      "date": "2022-01-31",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Sudoswap-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 105,
+      "auditor": "SpearBit",
+      "auditee": "Tracer DAO",
+      "date": "2022-04-17",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Tracer-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 106,
+      "auditor": "SpearBit",
+      "auditee": "Gauntlet",
+      "date": "2022-10-16",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Gauntlet-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 107,
+      "auditor": "SpearBit",
+      "auditee": "SeaDrop",
+      "date": "2022-11-08",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Seadrop-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 108,
+      "auditor": "SpearBit",
+      "auditee": "Astaria",
+      "date": "2023-02-09",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Astaria-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 109,
+      "auditor": "SpearBit",
+      "auditee": "Nouns",
+      "date": "2023-07-19",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Nouns-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 110,
+      "auditor": "SpearBit",
+      "auditee": "Astaria",
+      "date": "2023-08-20",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Astaria-Spearbit-Security-Review-July.pdf"
+    },
+    {
+      "id": 111,
+      "auditor": "SpearBit",
+      "auditee": "Liquid Collective",
+      "date": "2023-10-03",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/LiquidCollectivePR-Spearbit-Security-Review-Sept.pdf"
+    },
+    {
+      "id": 112,
+      "auditor": "SpearBit",
+      "auditee": "Velodrome",
+      "date": "2023-07-17",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/Velodrome-Spearbit-Security-Review.pdf"
+    },
+    {
+      "id": 113,
+      "auditor": "SpearBit",
+      "auditee": "Cron Finance",
+      "date": "2023-04-11",
+      "paper": "https://github.com/spearbit/portfolio/blob/master/pdfs/CronFinance-Spearbit-Security-Review.pdf"
+    },
+
+    {
+      "id": 114,
+      "auditor": "QuillAudit",
+      "auditee": "Enrex",
+      "date": "2022-03-31",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Enrex%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 115,
+      "auditor": "QuillAudit",
+      "auditee": "GameZilla",
+      "date": "2021-09-17",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/GameZilla%20Token%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 116,
+      "auditor": "QuillAudit",
+      "auditee": "JumpToken",
+      "date": "2022-01-16",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/JumpToken%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 117,
+      "auditor": "QuillAudit",
+      "auditee": "Metal Token",
+      "date": "2022-04-08",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Metal%20Token%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 118,
+      "auditor": "QuillAudit",
+      "auditee": "Nord Finance",
+      "date": "2021-06-23",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Nord%20Finance%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 119,
+      "auditor": "QuillAudit",
+      "auditee": "TronBTC",
+      "date": "2021-02-12",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/TronBTC%20Audit%20Report.pdf"
+    },
+    {
+      "id": 120,
+      "auditor": "QuillAudit",
+      "auditee": "Chocoswap",
+      "date": "2021-03-15",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Chocoswap%20Final%20Audit%20Report.pdf"
+    },
+    {
+      "id": 121,
+      "auditor": "QuillAudit",
+      "auditee": "DeFi 11",
+      "date": "2021-06-23",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/DeFi%2011%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf"
+    },
+    {
+      "id": 122,
+      "auditor": "QuillAudit",
+      "auditee": "BeeDAO",
+      "date": "2021-03-15",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/BeeDAO%20Smart%20Contract%20Audit%20Report.pdf"
+    },
+    {
+      "id": 123,
+      "auditor": "QuillAudit",
+      "auditee": "Astra DAO",
+      "date": "2023-10-03",
+      "paper": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Astra%20Dao%20Smart%20Contracts%20Audit%20Report(N)-QuillAudits.pdf"
+    },
+
+    {
+      "id": 124,
+      "auditor": "Dedaub",
+      "auditee": "Armor Governance",
+      "date": "2021-05-08",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Armor%20Finance/Armor%20Governance%20audit%20May%2021.pdf"
+    },
+    {
+      "id": 125,
+      "auditor": "Dedaub",
+      "auditee": "Chainlink",
+      "date": "2021-11-29",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Chainlink/Chainlink%20Uniswap%20Anchored%20View.pdf"
+    },
+    {
+      "id": 126,
+      "auditor": "Dedaub",
+      "auditee": "GYSR",
+      "date": "2023-04-04",
+      "paper": "https://github.com/Dedaub/audits/blob/main/GYSR/GYSR%20-%20Mar%20'23.pdf"
+    },
+    {
+      "id": 127,
+      "auditor": "Dedaub",
+      "auditee": "Gravita",
+      "date": "2023-04-03",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Gravita/Gravita%20Audit%2C%20Apr.%2023.pdf"
+    },
+    {
+      "id": 128,
+      "auditor": "Dedaub",
+      "auditee": "Chicken Bonds",
+      "date": "2022-07-13",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Liquity/Chicken%20Bonds%20Audit.pdf"
+    },
+    {
+      "id": 129,
+      "auditor": "Dedaub",
+      "auditee": "Muffin Finance",
+      "date": "2022-02-17",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Muffin%20Finance/Muffin%20Audit%20Report.pdf"
+    },
+    {
+      "id": 130,
+      "auditor": "Dedaub",
+      "auditee": "Solid World",
+      "date": "2023-05-01",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Solid%20World/Solid%20World%20Audit%20-%20Feb%20'23.pdf"
+    },
+    {
+      "id": 131,
+      "auditor": "Dedaub",
+      "auditee": "Stella",
+      "date": "2023-07-19",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Stella/Stella%20Audit%20-%20June%20'23.pdf"
+    },
+    {
+      "id": 132,
+      "auditor": "Dedaub",
+      "auditee": "Vesper Finance",
+      "date": "2021-09-06",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Vesper%20Finance/Vesper%20Pools%2BStrategies%20September%20Audit.pdf"
+    },
+    {
+      "id": 133,
+      "auditor": "Dedaub",
+      "auditee": "Rysk",
+      "date": "2023-02-10",
+      "paper": "https://github.com/Dedaub/audits/blob/main/Rysk/Rysk%20Audit%20-%20Feb%20'23.pdf"
+    },
+
+    {
+      "id": 134,
+      "auditor": "Cyfrin",
+      "auditee": "Dexe Protocol",
+      "date": "2021-05-08",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-11-10-cyfrin-dexe-v2.0.pdf"
+    },
+    {
+      "id": 135,
+      "auditor": "Cyfrin",
+      "auditee": "Farcaster",
+      "date": "2023-11-05",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-11-05-cyfrin-farcaster-v1.0.pdf"
+    },
+    {
+      "id": 136,
+      "auditor": "Cyfrin",
+      "auditee": "Swap Exchange",
+      "date": "2023-09-19",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-09-19-cyfrin-swapexchange.pdf"
+    },
+    {
+      "id": 137,
+      "auditor": "Cyfrin",
+      "auditee": "stake.link",
+      "date": "2023-08-25",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-08-25-cyfrin-stake-link.pdf"
+    },
+    {
+      "id": 138,
+      "auditor": "Cyfrin",
+      "auditee": "DropClaim",
+      "date": "2023-06-13",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-06-13-cyfrin-drop-claim-report-v2.pdf"
+    },
+    {
+      "id": 139,
+      "auditor": "Cyfrin",
+      "auditee": "Uniswap",
+      "date": "2023-06-07",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-06-07-cyfrin-uniswap-v3-limit-orders.pdf"
+    },
+    {
+      "id": 140,
+      "auditor": "Cyfrin",
+      "auditee": "Sudoswap",
+      "date": "2023-06-01",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-06-01-sudoswap-report.pdf"
+    },
+    {
+      "id": 141,
+      "auditor": "Cyfrin",
+      "auditee": "HyperLiquid DEX",
+      "date": "2023-04-11",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-04-11-cyfrin-hyperliquid-dex-report.pdf"
+    },
+    {
+      "id": 142,
+      "auditor": "Cyfrin",
+      "auditee": "Beanstalk",
+      "date": "2023-03-13",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-03-13-beanstalk_wells_v0.1.pdf"
+    },
+    {
+      "id": 143,
+      "auditor": "Cyfrin",
+      "auditee": "LinkPool",
+      "date": "2023-03-07",
+      "paper": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf"
+    },
+
+    {
+      "id": 144,
+      "auditor": "code4rena",
+      "auditee": "The Graph",
+      "date": "2022-12-21",
+      "paper": "https://code4rena.com/reports/2022-10-thegraph"
+    },
+    {
+      "id": 145,
+      "auditor": "code4rena",
+      "auditee": "OpenSea",
+      "date": "2023-03-21",
+      "paper": "https://code4rena.com/reports/2023-01-opensea"
+    },
+    {
+      "id": 146,
+      "auditor": "code4rena",
+      "auditee": "ENS",
+      "date": "2023-08-31",
+      "paper": "https://code4rena.com/reports/2023-04-ens"
+    },
+    {
+      "id": 147,
+      "auditor": "code4rena",
+      "auditee": "Arbitrum",
+      "date": "2023-09-20",
+      "paper": "https://code4rena.com/reports/2023-08-arbitrum"
+    },
+    {
+      "id": 148,
+      "auditor": "code4rena",
+      "auditee": "NounsDAO",
+      "date": "2022-09-30",
+      "paper": "https://code4rena.com/reports/2022-08-nounsdao"
+    },
+    {
+      "id": 149,
+      "auditor": "code4rena",
+      "auditee": "Velodrome",
+      "date": "2022-08-08",
+      "paper": "https://code4rena.com/reports/2022-05-velodrome"
+    },
+    {
+      "id": 150,
+      "auditor": "code4rena",
+      "auditee": "Yeti Finance",
+      "date": "2022-03-02",
+      "paper": "https://code4rena.com/reports/2021-12-yetifinance"
+    },
+    {
+      "id": 151,
+      "auditor": "code4rena",
+      "auditee": "Sushi Trident",
+      "date": "2021-11-02",
+      "paper": "https://code4rena.com/reports/2021-09-sushitrident"
+    },
+    {
+      "id": 152,
+      "auditor": "code4rena",
+      "auditee": "BadgerDAO",
+      "date": "2021-01-05",
+      "paper": "https://code4rena.com/reports/2021-11-badgerzaps"
+    },
+    {
+      "id": 153,
+      "auditor": "code4rena",
+      "auditee": "Tracer",
+      "date": "2021-09-16",
+      "paper": "https://code4rena.com/reports/2021-06-tracer"
+    },
+    {
+      "id": 154,
+      "auditor": "CertiK",
+      "auditee": "Bancor",
+      "date": "2020-10-09",
+      "paper": "https://skynet.certik.com/projects/bancor"
+    },
+    {
+      "id": 155,
+      "auditor": "CertiK",
+      "auditee": "The Sandbox",
+      "date": "2022-06-05",
+      "paper": "https://skynet.certik.com/projects/sandbox.game"
+    },
+    {
+      "id": 156,
+      "auditor": "CertiK",
+      "auditee": "ApeCoin",
+      "date": "2022-13-23",
+      "paper": "https://skynet.certik.com/projects/ApeCoin"
+    },
+    {
+      "id": 157,
+      "auditor": "CertiK",
+      "auditee": "Shiba Swap",
+      "date": "2021-08-02",
+      "paper": "https://skynet.certik.com/projects/shiba-swap"
+    },
+    {
+      "id": 158,
+      "auditor": "CertiK",
+      "auditee": "Polygon",
+      "date": "2021-02-02",
+      "paper": "https://skynet.certik.com/projects/polygon"
     }
   ]
 }
