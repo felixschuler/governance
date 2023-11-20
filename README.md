@@ -10,14 +10,21 @@ Below is a list of reputable smart contract auditors that have been included in 
 
 - [CertiK](https://certik.com/)
 - [ChainSecurity](https://chainsecurity.com/)
+- [code4rena](https://code4rena.com/)
 - [Consensys Diligence](https://consensys.net/diligence/)
+- [Cyfrin](https://www.cyfrin.io/)
+- [Dedaub](https://dedaub.com/)
 - [Gauntlet](https://gauntlet.network/)
 - [Hacken](https://hacken.io/)
+- [Halborn](https://www.halborn.com/)
 - [Kudelski Security](https://www.kudelskisecurity.com/)
 - [OpenZeppelin](https://openzeppelin.com/)
 - [PeckShield](https://peckshield.com/)
 - [Quantstamp](https://quantstamp.com/)
+- [QuillAudits](https://www.quillaudits.com/smart-contract-audit)
+- [sigma prime](https://sigmaprime.io/)
 - [SlowMist](https://www.slowmist.com/)
+- [SpearBit](https://spearbit.com/)
 - [TrailsOfBits](https://www.trailofbits.com/)
 
 ## Smart Contract Audits
