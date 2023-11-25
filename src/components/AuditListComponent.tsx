@@ -11,7 +11,7 @@ const AuditListComponent = ({ audit }: AuditListComponentProps) => {
       <td>{audit.auditor}</td>
       <td>{audit.date}</td>
       <td className="text-center">
-        <a href={audit.paper} target="_blank" rel="noopener noreferrer">
+        <a href={audit.report} target="_blank" rel="noopener noreferrer">
           View Paper
         </a>
       </td>
