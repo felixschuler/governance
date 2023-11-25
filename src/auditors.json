@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "name": "Gauntlet",
+    "type": "Economic",
+    "clients": "7",
+    "notableClients": ["Compound", "Aave", "Maker", "Uniswap"],
+    "kpis": [
+      "27 research papers published",
+      "$9 billion client assets protected",
+      "250 billion predictive data points"
+    ],
+    "website": "https://gauntlet.network/",
+    "reportsUrl": "",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Slowmist",
+    "type": "Security",
+    "clients": "100+",
+    "notableClients": ["Binance", "Crypto.com", "PancakeSwap", "1INCH"],
+    "kpis": ["1,500 well-known smart contracts audited"],
+    "website": "https://www.slowmist.com/index.html",
+    "reportsUrl": "https://github.com/slowmist/Knowledge-Base/tree/master/open-report-V2/smart-contract",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Hacken",
+    "type": "Security",
+    "clients": "1,000+",
+    "notableClients": ["Binance", "Huobi", "WhiteBIT", "1INCH"],
+    "kpis": [
+      "180+ ecosystem partners",
+      "60+ top-class engineers",
+      "0 exploits in 2022"
+    ],
+    "website": "https://hacken.io/",
+    "reportsUrl": "https://hacken.io/audits/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Certik",
+    "type": "Security",
+    "clients": "4,000+",
+    "notableClients": ["Aave", "BNB Smart Chain", "Terra", "Yearn"],
+    "kpis": [
+      "$364B market cap assessed",
+      "12,807 projects monitored",
+      "60,000+ vulnerabilities detected"
+    ],
+    "website": "https://www.certik.com/",
+    "reportsUrl": "https://skynet.certik.com/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Quantstamp",
+    "type": "Security",
+    "clients": "500+",
+    "notableClients": ["Maker", "Compound", "Aave", "OpenSea"],
+    "kpis": ["$200B+ secured", "Remote 1st Company"],
+    "website": "https://quantstamp.com/",
+    "reportsUrl": "https://certificate.quantstamp.com/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Halborn",
+    "type": "Security",
+    "clients": "150+",
+    "notableClients": ["BlockFi", "ApeCoin", "Avalanche", "SushiSwap"],
+    "kpis": [],
+    "website": "https://www.halborn.com/",
+    "reportsUrl": "https://github.com/HalbornSecurity/PublicReports",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 7,
+    "name": "OpenZeppelin",
+    "type": "Security",
+    "clients": "Not stated",
+    "notableClients": ["Coinbase", "Aave", "Compound", "The Graph"],
+    "kpis": [
+      "370+ audits performed",
+      "$15B+ balance held in OpenZeppelin contracts",
+      "94% of top 20 DeFi protocols use OpenZeppelin contracts"
+    ],
+    "website": "https://www.openzeppelin.com/",
+    "reportsUrl": "https://blog.openzeppelin.com/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Trail of Bits",
+    "type": "Security",
+    "clients": "100+",
+    "notableClients": ["Balancer", "Aave", "Compound", "yearn.finance"],
+    "kpis": [],
+    "website": "https://www.trailofbits.com/",
+    "reportsUrl": "https://github.com/trailofbits/publications",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Consensys Diligence",
+    "type": "Security",
+    "clients": "100+",
+    "notableClients": ["Uniswap", "Aave", "0x", "Horizon"],
+    "kpis": [],
+    "website": "https://consensys.io/diligence/",
+    "reportsUrl": "https://consensys.io/diligence/audits/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kudelski Security",
+    "type": "Security",
+    "clients": "150+",
+    "notableClients": ["Binance", "Crypto.com", "Monero", "Solana"],
+    "kpis": [
+      "200+ security audits and assessments",
+      "$230B digital currency secured",
+      "500k+ audited lines of code",
+      "1000 years combined cryptography experience on staff"
+    ],
+    "website": "https://kudelskisecurity.com/",
+    "reportsUrl": "https://kudelskisecurity.com/audits/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 11,
+    "name": "ChainSecurity",
+    "type": "Security",
+    "clients": "20+",
+    "notableClients": ["Maker", "Compound", "Aave", "Uniswap"],
+    "kpis": [],
+    "website": "https://chainsecurity.com/",
+    "reportsUrl": "https://chainsecurity.com/smart-contract-audit-reports/",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 12,
+    "name": "PeckShield",
+    "type": "Security",
+    "clients": "40+",
+    "notableClients": ["Maker", "Aave", "PancakeSwap", "polygon"],
+    "kpis": [],
+    "website": "https://peckshield.com/",
+    "reportsUrl": "https://github.com/peckshield/publications/tree/master/audit_reports",
+    "source": {
+      "title": "11 Best Smart Contract Auditing Companies",
+      "url": "https://www.coingecko.com/learn/11-best-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 13,
+    "name": "QuillAudits",
+    "type": "Security",
+    "clients": "1000+",
+    "notableClients": ["Coinbase", "Kraken", "PancakeSwap", "Uniswap"],
+    "kpis": [
+      "850+ projects secured",
+      "800K lines of code secured",
+      "$30B protected"
+    ],
+    "website": "https://www.quillaudits.com/smart-contract-audit",
+    "reportsUrl": "https://github.com/Quillhash/QuillAudit_Reports/tree/master",
+    "source": {
+      "title": "Top 7 Smart Contract Audit Companies (2023 Updated)",
+      "url": "https://cryptojobslist.com/blog/smart-contract-audit-companies"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Cyfrin",
+    "type": "Security",
+    "clients": "5",
+    "notableClients": ["sudoswap", "LinkPool", "Beanstalk", "Vyper"],
+    "kpis": ["$10Bn+ blockchain integrations"],
+    "website": "https://www.cyfrin.io/",
+    "reportsUrl": "https://github.com/Cyfrin/cyfrin-audit-reports",
+    "source": {
+      "title": "Top 10 smart contract auditing companies and services",
+      "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 15,
+    "name": "SpearBit",
+    "type": "Security",
+    "clients": "20+",
+    "notableClients": ["OpenSea", "Alchemy", "Redacted", "BadgerDAO"],
+    "kpis": [],
+    "website": "https://spearbit.com/",
+    "reportsUrl": "https://github.com/spearbit/portfolio",
+    "source": {
+      "title": "Top 10 smart contract auditing companies and services",
+      "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 16,
+    "name": "sigma prime",
+    "type": "Security",
+    "clients": "20+",
+    "notableClients": ["Aave", "Polkadot", "Chainlink", "SushiSwap"],
+    "kpis": [],
+    "website": "https://sigmaprime.io/",
+    "reportsUrl": "https://github.com/sigp/public-audits",
+    "source": {
+      "title": "Top 10 smart contract auditing companies and services",
+      "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Debaub",
+    "type": "Security",
+    "clients": "10+",
+    "notableClients": ["Ledger", "Coinbase", "Chainlink", "yearn.finance"],
+    "kpis": [],
+    "website": "https://dedaub.com/",
+    "reportsUrl": "https://github.com/Dedaub/audits",
+    "source": {
+      "title": "Top 10 smart contract auditing companies and services",
+      "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+    }
+  },
+  {
+    "id": 18,
+    "name": "code4rena",
+    "type": "Security",
+    "clients": "100+",
+    "notableClients": ["OpenSea", "Chainlink", "Aave", "The Graph"],
+    "kpis": [
+      "1,091 unique high-severity vulnerabilities",
+      "21,546 unique findings",
+      "293 audits completed"
+    ],
+    "website": "https://code4rena.com/",
+    "reportsUrl": "https://code4rena.com/reports",
+    "source": {
+      "title": "Top 10 smart contract auditing companies and services",
+      "url": "https://www.cyfrin.io/blog/top-10-smart-contract-auditing-companies"
+    }
+  }
+]

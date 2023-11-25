@@ -1,32 +1,30 @@
-import data from '../data.json';
+import auditors from '../auditors.json';
+import audits from '../audits.json';
+import description from '../description.json';
 import { Audit } from './types';
 
-export const getData = () => {
-  return data;
-};
-
 export const getAuditors = () => {
-  return data.auditors;
+  return auditors;
 };
 
 export const getAudits = () => {
-  return data.audits;
+  return audits;
 };
 
 export const getAuditsByAuditor = (auditor: string) => {
-  return data.audits.filter((audit) => audit.auditor === auditor);
+  return audits.filter((audit) => audit.auditor === auditor);
 };
 
 export const getAuditsByAuditee = (auditee: string) => {
-  return data.audits.filter((audit) => audit.auditee === auditee);
+  return audits.filter((audit) => audit.auditee === auditee);
 };
 
 export const getEconomicDescription = () => {
-  return data.auditorDescription.economic;
+  return description.economic;
 };
 
 export const getSecurityDescription = () => {
-  return data.auditorDescription.security;
+  return description.security;
 };
 
 export const getFilteredAndSortedAudits = (
@@ -85,11 +83,11 @@ const sortAudits = (audits: Audit[], sortType: string) => {
 export const convertAuditsToCsv = (audits: Audit[]) => {
   const auditsCopy = [...audits];
 
-  const titles = 'Auditee,Auditor,Date,Paper';
+  const titles = 'Auditee,Auditor,Date,Report';
 
   const auditsCsv = auditsCopy.map((audit) => {
-    const { auditee, auditor, date, paper } = audit;
-    return `${auditee},${auditor},${date},${paper}`;
+    const { auditee, auditor, date, report } = audit;
+    return `${auditee},${auditor},${date},${report}`;
   });
 
   const auditsCsvString = [titles, ...auditsCsv].join('\n');

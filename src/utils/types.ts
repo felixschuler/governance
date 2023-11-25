@@ -20,7 +20,7 @@ export type Audit = {
   auditor: string;
   auditee: string;
   date: string;
-  paper: string;
+  report: string;
 };
 
 type Source = {
