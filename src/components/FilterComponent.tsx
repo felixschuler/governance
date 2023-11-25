@@ -4,7 +4,9 @@ export interface FilterComponentProps {
   filterQuery: string;
   sortType: string;
   minDate: string;
+  globalMinDate: string;
   maxDate: string;
+  globalMaxDate: string;
   onFilterQueryChange: (filterQuery: string) => void;
   onSortTypeChange: (sortType: string) => void;
   onMinDateChange: (minDate: string) => void;
@@ -15,7 +17,9 @@ const FilterComponent = ({
   filterQuery,
   sortType,
   minDate,
+  globalMinDate,
   maxDate,
+  globalMaxDate,
   onFilterQueryChange,
   onSortTypeChange,
   onMinDateChange,
@@ -50,15 +54,11 @@ const FilterComponent = ({
             <Form.Group controlId="filter.nameSearch">
               <Form.Label>From: </Form.Label>
               <Form.Control
-                type="date"
+                type="month"
                 value={minDate}
                 onChange={(e) => onMinDateChange(e.target.value)}
-                min={new Date('2018-01-01').toISOString().split('T')[0]}
-                max={
-                  maxDate !== ''
-                    ? new Date(maxDate).toISOString().split('T')[0]
-                    : new Date().toISOString().split('T')[0]
-                }
+                min={globalMinDate}
+                max={maxDate !== '' ? maxDate : globalMaxDate}
               />
             </Form.Group>
           </Col>
@@ -66,15 +66,11 @@ const FilterComponent = ({
             <Form.Group controlId="filter.nameSearch">
               <Form.Label>To:</Form.Label>
               <Form.Control
-                type="date"
+                type="month"
                 value={maxDate}
                 onChange={(e) => onMaxDateChange(e.target.value)}
-                min={
-                  minDate !== ''
-                    ? new Date(minDate).toISOString().split('T')[0]
-                    : new Date('2018-01-01').toISOString().split('T')[0]
-                }
-                max={new Date().toISOString().split('T')[0]}
+                min={minDate !== '' ? minDate : globalMinDate}
+                max={globalMaxDate}
               />
             </Form.Group>
           </Col>

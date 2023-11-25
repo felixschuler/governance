@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import { Form, Table } from 'react-bootstrap';
 import { Audit } from '../utils/types';
 import AuditListComponent from './AuditListComponent';
-import PaginationComponent from './PaginationComponent';
-import { useState } from 'react';
 import DownloadComponent from './DownloadComponent';
+import PaginationComponent from './PaginationComponent';
 
 export interface AuditTableComponentProps {
   audits: Audit[];
@@ -30,12 +30,16 @@ const AuditTableComponent = ({
     { value: 20, label: '20 / page' },
   ];
 
+  console.log(new Date(minDate), new Date(maxDate));
+
   audits.forEach((audit: Audit) => {
+    console.log(new Date(audit.date));
+
     if (
       (audit.auditee.toLowerCase().includes(filterQuery.toLowerCase()) ||
         audit.auditor.toLowerCase().includes(filterQuery.toLowerCase())) &&
-      audit.date >= minDate &&
-      audit.date <= maxDate
+      new Date(audit.date) >= new Date(minDate) &&
+      new Date(audit.date) <= new Date(maxDate)
     ) {
       filteredAudits.push(audit);
     }
