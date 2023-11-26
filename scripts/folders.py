@@ -1,24 +1,21 @@
 import os
 
-# Paths relative to the script location
-script_dir = os.path.dirname(__file__)
-base_dir = os.path.join(script_dir, '../public/reports')
 
-for auditor in os.listdir(base_dir):
-    auditor_path = os.path.join(base_dir, auditor)
-    if os.path.isdir(auditor_path):
-        for auditee in os.listdir(auditor_path):
-            auditee_path = os.path.join(auditor_path, auditee)
-            if os.path.isdir(auditee_path):
-                for date_folder in os.listdir(auditee_path):
-                    date_folder_path = os.path.join(auditee_path, date_folder)
-                    if os.path.isdir(date_folder_path) and '.' in date_folder:
-                        # Split the folder name assuming format "MM.YYYY"
-                        parts = date_folder.split('.')
-                        if len(parts) == 2 and len(parts[0]) == 2 and len(parts[1]) == 4:
-                            new_folder_name = f"{parts[1]}-{parts[0]}"  # Reformat to "YYYY-MM"
-                            new_folder_path = os.path.join(auditee_path, new_folder_name)
+def format_folder_name(folder_name):
+    """ Capitalize each word and replace hyphens with spaces. """
+    return ' '.join(word.capitalize() for word in folder_name.replace('-', ' ').split())
 
-                            # Rename the folder
-                            os.rename(date_folder_path, new_folder_path)
-                            print(f"Renamed '{date_folder}' to '{new_folder_name}'")
+def process_directories(base_dir):
+    """ Process each directory in the base directory. """
+    for folder in os.listdir(base_dir):
+        folder_path = os.path.join(base_dir, folder)
+
+        if os.path.isdir(folder_path):
+            # If the folder is empty, delete it
+            if not os.listdir(folder_path):
+                os.rmdir(folder_path)
+                print(f"Deleted empty folder: {folder}")
+
+# Set the path to the base directory
+base_dir = '../public/reports/Hacken'
+process_directories(base_dir)

@@ -1,12 +1,19 @@
 import os
+import re
 import time
 
 import requests
 from bs4 import BeautifulSoup
 
 
+def format_date_from_href(href):
+    # Extract date in the format "YYYY/MM"
+    date_match = re.search(r'(\d{4}/\d{2})', href)
+    if date_match:
+        return date_match.group().replace('/', '-')
+    return None
+
 def get_pdf_links(audit_page_url, processed_pdf_links):
-    time.sleep(1)
     response = requests.get(audit_page_url)
     soup = BeautifulSoup(response.text, 'html.parser')
     
@@ -24,14 +31,13 @@ main_url = 'https://hacken.io/'
 processed_urls = set()
 processed_pdf_links = set()
 
-base_dir = 'hacken_audits'
+base_dir = 'Hacken'
 if not os.path.exists(base_dir):
     os.makedirs(base_dir)
 
 # Loop through each page of audit reports
 for page in range(1, 60):  # Assuming 59 pages
     page_url = f"{main_url}audits/?page={page}"
-    time.sleep(1)
     response = requests.get(page_url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -48,10 +54,16 @@ for page in range(1, 60):  # Assuming 59 pages
             print(f"Checking {full_url}")
             pdf_links = get_pdf_links(full_url, processed_pdf_links)
             for pdf_link in pdf_links:
-                time.sleep(1)
+                if not pdf_link.startswith('http://wp.hacken.io'):
+                    print(f"Skipping {pdf_link}")
+                    continue
+                date = format_date_from_href(pdf_link)
+                print(f"Found PDF: {pdf_link} ({date})")
                 pdf_filename = pdf_link.split('/')[-1]
                 pdf_response = requests.get(pdf_link)
-                with open(os.path.join(auditee_dir, pdf_filename), 'wb') as file:
+                if not os.path.exists(os.path.join(auditee_dir, date)):
+                    os.makedirs(os.path.join(auditee_dir, date))
+                with open(os.path.join(auditee_dir, date, pdf_filename), 'wb') as file:
                     file.write(pdf_response.content)
                 print(f"Downloaded {pdf_filename} to {auditee_dir}")
 
