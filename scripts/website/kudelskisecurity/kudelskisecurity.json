@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "auditor": "Kudelski Security",
+    "auditee": "Multiplier",
+    "date": "2021-05",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Multiplier/2021-05/Multiplier.Finance-MCL-Threat-Model.pdf"
+  },
+  {
+    "id": 2,
+    "auditor": "Kudelski Security",
+    "auditee": "Allbridge Core",
+    "date": "2022-11",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Allbridge Core/2022-11/Stable-Bridge-Secure-Code-Review-v3.1-public-redacted-1.pdf"
+  },
+  {
+    "id": 3,
+    "auditor": "Kudelski Security",
+    "auditee": "Proton",
+    "date": "2020-12",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Proton/2020-12/Proton-Chain-Security-Assessment.pdf"
+  },
+  {
+    "id": 4,
+    "auditor": "Kudelski Security",
+    "auditee": "Thorchain",
+    "date": "2020-01",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Thorchain/2020-01/ThorchainTSSSecurityAudit.pdf"
+  },
+  {
+    "id": 5,
+    "auditor": "Kudelski Security",
+    "auditee": "Marinade",
+    "date": "2021-11",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Marinade/2021-11/Crypto-_-Digital-Asset-Assessment.pdf"
+  },
+  {
+    "id": 6,
+    "auditor": "Kudelski Security",
+    "auditee": "AZERO.ID",
+    "date": "2023-07",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/AZERO.ID/2023-07/AZERO_Domain_Smart_Contract_Audit_PUBLIC.pdf"
+  },
+  {
+    "id": 7,
+    "auditor": "Kudelski Security",
+    "auditee": "Solana",
+    "date": "2020-10",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Solana/2020-10/Solana-Inflation-Logic-Code-Review-.pdf"
+  },
+  {
+    "id": 8,
+    "auditor": "Kudelski Security",
+    "auditee": "Swim Pool",
+    "date": "2021-12",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Swim Pool/2021-12/Security-Assessment-for-Swim-Pool.pdf"
+  },
+  {
+    "id": 9,
+    "auditor": "Kudelski Security",
+    "auditee": "Chainlink",
+    "date": "2021-07",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Chainlink/2021-07/Chainlink-Fluxaggregator-code-review.pdf"
+  },
+  {
+    "id": 10,
+    "auditor": "Kudelski Security",
+    "auditee": "Beluga",
+    "date": "2022-09",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Beluga/2022-09/PUBLIC_RELEASE_REDACTED_Kudelski_BelugaDex_SCR_2022_Retest_Report.pdf"
+  },
+  {
+    "id": 11,
+    "auditor": "Kudelski Security",
+    "auditee": "ING",
+    "date": "2021-03",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/ING/2021-03/Audit-of-ECDSA-MPC.pdf"
+  },
+  {
+    "id": 12,
+    "auditor": "Kudelski Security",
+    "auditee": "Solrazr",
+    "date": "2021-09",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Solrazr/2021-09/Solrazr-Security-Assessment.pdf"
+  },
+  {
+    "id": 13,
+    "auditor": "Kudelski Security",
+    "auditee": "Fortior",
+    "date": "2022-02",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Fortior/2022-02/Secure-Code-Review-for-Choice-Coin-Fortior-Blockchain-.pdf"
+  },
+  {
+    "id": 14,
+    "auditor": "Kudelski Security",
+    "auditee": "Disa Token",
+    "date": "2022-06",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Disa Token/2022-06/Disatok-Disa-Token-Security-Assessment-v3.0.pdf"
+  },
+  {
+    "id": 15,
+    "auditor": "Kudelski Security",
+    "auditee": "Defly",
+    "date": "2022-07",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Defly/2022-07/Defly-SCR-2022-ExecSummary-v2.1.pdf"
+  },
+  {
+    "id": 16,
+    "auditor": "Kudelski Security",
+    "auditee": "PACT FInance",
+    "date": "2022-07",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/PACT FInance/2022-07/Algorand-Foundation-and-PACT-Finance-PACT-Finance-Security-Assessment-v2.0-Public-002.pdf"
+  },
+  {
+    "id": 17,
+    "auditor": "Kudelski Security",
+    "auditee": "AlgoRai",
+    "date": "2022-09",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/AlgoRai/2022-09/AlgoRai-Secure-Code-Review-Report-Public-Release.pdf"
+  },
+  {
+    "id": 18,
+    "auditor": "Kudelski Security",
+    "auditee": "Only1",
+    "date": "2021-11",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Only1/2021-11/Only1-Limited-Digital-Asset-Assessment.pdf"
+  },
+  {
+    "id": 19,
+    "auditor": "Kudelski Security",
+    "auditee": "Dapper",
+    "date": "2021-01",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Dapper/2021-01/Security-Assessment-forFlow-USDC.pdf"
+  },
+  {
+    "id": 20,
+    "auditor": "Kudelski Security",
+    "auditee": "AMIS",
+    "date": "2022-11",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/AMIS/2022-11/report_amis_1.2_final_public.pdf"
+  },
+  {
+    "id": 21,
+    "auditor": "Kudelski Security",
+    "auditee": "Bonfida",
+    "date": "2021-05",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Bonfida/2021-05/Vesting-Contract-Security-Code-Review-Assessment.pdf"
+  },
+  {
+    "id": 22,
+    "auditor": "Kudelski Security",
+    "auditee": "Cryptocurrency.ai",
+    "date": "2021-09",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Cryptocurrency.ai/2021-09/Cryptocurrency.ai\u2013Review-2.pdf"
+  },
+  {
+    "id": 23,
+    "auditor": "Kudelski Security",
+    "auditee": "Phantom",
+    "date": "2021-05",
+    "report": "https://governance.felixschuler.at/reports/Kudelski Security/Phantom/2021-05/Phantom-Security-Assessment.pdf"
+  }
+]

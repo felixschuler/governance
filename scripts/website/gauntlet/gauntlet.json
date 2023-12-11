@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "auditor": "Gauntlet",
+    "auditee": "Compound",
+    "date": "2020-02",
+    "report": "https://governance.felixschuler.at/reports/Gauntlet/Compound/2020-02/CompoundMarketRiskAssessment.pdf"
+  },
+  {
+    "id": 2,
+    "auditor": "Gauntlet",
+    "auditee": "Aave",
+    "date": "2021-01",
+    "report": "https://governance.felixschuler.at/reports/Gauntlet/Compound/2021-01/Aave_Market_Risk_Assessment.pdf"
+  }
+]

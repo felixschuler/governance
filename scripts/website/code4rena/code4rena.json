@@ -1,0 +1,1759 @@
+[
+  {
+    "id": 1,
+    "auditor": "code4rena",
+    "auditee": "Maia",
+    "date": "2023-09",
+    "report": "https://code4rena.com/reports/2023-09-maia"
+  },
+  {
+    "id": 2,
+    "auditor": "code4rena",
+    "auditee": "Axelar",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-axelar"
+  },
+  {
+    "id": 3,
+    "auditor": "code4rena",
+    "auditee": "Venus",
+    "date": "2023-09",
+    "report": "https://code4rena.com/reports/2023-09-venus"
+  },
+  {
+    "id": 4,
+    "auditor": "code4rena",
+    "auditee": "Brahma",
+    "date": "2023-10",
+    "report": "https://code4rena.com/reports/2023-10-brahma"
+  },
+  {
+    "id": 5,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2023-10",
+    "report": "https://code4rena.com/reports/2023-10-canto"
+  },
+  {
+    "id": 6,
+    "auditor": "code4rena",
+    "auditee": "Tapioca",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-tapioca"
+  },
+  {
+    "id": 7,
+    "auditor": "code4rena",
+    "auditee": "Delegate",
+    "date": "2023-09",
+    "report": "https://code4rena.com/reports/2023-09-delegate"
+  },
+  {
+    "id": 8,
+    "auditor": "code4rena",
+    "auditee": "Reserve",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-reserve"
+  },
+  {
+    "id": 9,
+    "auditor": "code4rena",
+    "auditee": "Reserve",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-reserve"
+  },
+  {
+    "id": 10,
+    "auditor": "code4rena",
+    "auditee": "Arcade",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-arcade"
+  },
+  {
+    "id": 11,
+    "auditor": "code4rena",
+    "auditee": "Livepeer",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-livepeer"
+  },
+  {
+    "id": 12,
+    "auditor": "code4rena",
+    "auditee": "Ondo",
+    "date": "2023-09",
+    "report": "https://code4rena.com/reports/2023-09-ondo"
+  },
+  {
+    "id": 13,
+    "auditor": "code4rena",
+    "auditee": "Centrifuge",
+    "date": "2023-09",
+    "report": "https://code4rena.com/reports/2023-09-centrifuge"
+  },
+  {
+    "id": 14,
+    "auditor": "code4rena",
+    "auditee": "Verwa",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-verwa"
+  },
+  {
+    "id": 15,
+    "auditor": "code4rena",
+    "auditee": "Basin",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-basin"
+  },
+  {
+    "id": 16,
+    "auditor": "code4rena",
+    "auditee": "Moonwell",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-moonwell"
+  },
+  {
+    "id": 17,
+    "auditor": "code4rena",
+    "auditee": "Shell",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-shell"
+  },
+  {
+    "id": 18,
+    "auditor": "code4rena",
+    "auditee": "Goodentry",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-goodentry"
+  },
+  {
+    "id": 19,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-canto"
+  },
+  {
+    "id": 20,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-pooltogether"
+  },
+  {
+    "id": 21,
+    "auditor": "code4rena",
+    "auditee": "Arbitrum",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-arbitrum"
+  },
+  {
+    "id": 22,
+    "auditor": "code4rena",
+    "auditee": "Lukso",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-lukso"
+  },
+  {
+    "id": 23,
+    "auditor": "code4rena",
+    "auditee": "Maia",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-maia"
+  },
+  {
+    "id": 24,
+    "auditor": "code4rena",
+    "auditee": "Popcorn",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-popcorn"
+  },
+  {
+    "id": 25,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2023-08",
+    "report": "https://code4rena.com/reports/2023-08-pooltogether"
+  },
+  {
+    "id": 26,
+    "auditor": "code4rena",
+    "auditee": "Ens",
+    "date": "2023-04",
+    "report": "https://code4rena.com/reports/2023-04-ens"
+  },
+  {
+    "id": 27,
+    "auditor": "code4rena",
+    "auditee": "Lybra",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-lybra"
+  },
+  {
+    "id": 28,
+    "auditor": "code4rena",
+    "auditee": "Xeth",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-xeth"
+  },
+  {
+    "id": 29,
+    "auditor": "code4rena",
+    "auditee": "Base",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-base"
+  },
+  {
+    "id": 30,
+    "auditor": "code4rena",
+    "auditee": "Angle",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-angle"
+  },
+  {
+    "id": 31,
+    "auditor": "code4rena",
+    "auditee": "Venus",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-venus"
+  },
+  {
+    "id": 32,
+    "auditor": "code4rena",
+    "auditee": "Particle",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-particle"
+  },
+  {
+    "id": 33,
+    "auditor": "code4rena",
+    "auditee": "Ambire",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-ambire"
+  },
+  {
+    "id": 34,
+    "auditor": "code4rena",
+    "auditee": "Polynomial",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-polynomial"
+  },
+  {
+    "id": 35,
+    "auditor": "code4rena",
+    "auditee": "Nounsdao",
+    "date": "2023-07",
+    "report": "https://code4rena.com/reports/2023-07-nounsdao"
+  },
+  {
+    "id": 36,
+    "auditor": "code4rena",
+    "auditee": "Asymmetry",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-asymmetry"
+  },
+  {
+    "id": 37,
+    "auditor": "code4rena",
+    "auditee": "Juicebox",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-juicebox"
+  },
+  {
+    "id": 38,
+    "auditor": "code4rena",
+    "auditee": "Llama",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-llama"
+  },
+  {
+    "id": 39,
+    "auditor": "code4rena",
+    "auditee": "Stader",
+    "date": "2023-06",
+    "report": "https://code4rena.com/reports/2023-06-stader"
+  },
+  {
+    "id": 40,
+    "auditor": "code4rena",
+    "auditee": "Eigenlayer",
+    "date": "2023-04",
+    "report": "https://code4rena.com/reports/2023-04-eigenlayer"
+  },
+  {
+    "id": 41,
+    "auditor": "code4rena",
+    "auditee": "Ajna",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-ajna"
+  },
+  {
+    "id": 42,
+    "auditor": "code4rena",
+    "auditee": "Kuma",
+    "date": "2023-02",
+    "report": "https://code4rena.com/reports/2023-02-kuma"
+  },
+  {
+    "id": 43,
+    "auditor": "code4rena",
+    "auditee": "Party",
+    "date": "2023-04",
+    "report": "https://code4rena.com/reports/2023-04-party"
+  },
+  {
+    "id": 44,
+    "auditor": "code4rena",
+    "auditee": "Party",
+    "date": "2023-05",
+    "report": "https://code4rena.com/reports/2023-05-party"
+  },
+  {
+    "id": 45,
+    "auditor": "code4rena",
+    "auditee": "Zksync",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-zksync"
+  },
+  {
+    "id": 46,
+    "auditor": "code4rena",
+    "auditee": "Frankencoin",
+    "date": "2023-04",
+    "report": "https://code4rena.com/reports/2023-04-frankencoin"
+  },
+  {
+    "id": 47,
+    "auditor": "code4rena",
+    "auditee": "Ens",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-ens"
+  },
+  {
+    "id": 48,
+    "auditor": "code4rena",
+    "auditee": "Astaria",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-astaria"
+  },
+  {
+    "id": 49,
+    "auditor": "code4rena",
+    "auditee": "Caviar",
+    "date": "2023-04",
+    "report": "https://code4rena.com/reports/2023-04-caviar"
+  },
+  {
+    "id": 50,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-canto-identity"
+  },
+  {
+    "id": 51,
+    "auditor": "code4rena",
+    "auditee": "Blockswap",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-blockswap-fv"
+  },
+  {
+    "id": 52,
+    "auditor": "code4rena",
+    "auditee": "Stealth",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-stealth-project"
+  },
+  {
+    "id": 53,
+    "auditor": "code4rena",
+    "auditee": "Ethos",
+    "date": "2023-02",
+    "report": "https://code4rena.com/reports/2023-02-ethos"
+  },
+  {
+    "id": 54,
+    "auditor": "code4rena",
+    "auditee": "Malt",
+    "date": "2023-02",
+    "report": "https://code4rena.com/reports/2023-02-malt"
+  },
+  {
+    "id": 55,
+    "auditor": "code4rena",
+    "auditee": "Paraspace",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-paraspace"
+  },
+  {
+    "id": 56,
+    "auditor": "code4rena",
+    "auditee": "Reserve",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-reserve"
+  },
+  {
+    "id": 57,
+    "auditor": "code4rena",
+    "auditee": "Mute",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-mute"
+  },
+  {
+    "id": 58,
+    "auditor": "code4rena",
+    "auditee": "Tessera",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-tessera"
+  },
+  {
+    "id": 59,
+    "auditor": "code4rena",
+    "auditee": "Wenwin",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-wenwin"
+  },
+  {
+    "id": 60,
+    "auditor": "code4rena",
+    "auditee": "Rabbithole",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-rabbithole"
+  },
+  {
+    "id": 61,
+    "auditor": "code4rena",
+    "auditee": "Neotokyo",
+    "date": "2023-03",
+    "report": "https://code4rena.com/reports/2023-03-neotokyo"
+  },
+  {
+    "id": 62,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-canto-identity"
+  },
+  {
+    "id": 63,
+    "auditor": "code4rena",
+    "auditee": "Golom",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-golom"
+  },
+  {
+    "id": 64,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-canto"
+  },
+  {
+    "id": 65,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-canto"
+  },
+  {
+    "id": 66,
+    "auditor": "code4rena",
+    "auditee": "Looksrare",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-looksrare"
+  },
+  {
+    "id": 67,
+    "auditor": "code4rena",
+    "auditee": "Gogopool",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-gogopool"
+  },
+  {
+    "id": 68,
+    "auditor": "code4rena",
+    "auditee": "Opensea",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-opensea"
+  },
+  {
+    "id": 69,
+    "auditor": "code4rena",
+    "auditee": "Drips",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-drips"
+  },
+  {
+    "id": 70,
+    "auditor": "code4rena",
+    "auditee": "Timeswap",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-timeswap"
+  },
+  {
+    "id": 71,
+    "auditor": "code4rena",
+    "auditee": "Amun",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-amun"
+  },
+  {
+    "id": 72,
+    "auditor": "code4rena",
+    "auditee": "Biconomy",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-biconomy"
+  },
+  {
+    "id": 73,
+    "auditor": "code4rena",
+    "auditee": "Numoen",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-numoen"
+  },
+  {
+    "id": 74,
+    "auditor": "code4rena",
+    "auditee": "Forgeries",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-forgeries"
+  },
+  {
+    "id": 75,
+    "auditor": "code4rena",
+    "auditee": "Ondo",
+    "date": "2023-01",
+    "report": "https://code4rena.com/reports/2023-01-ondo"
+  },
+  {
+    "id": 76,
+    "auditor": "code4rena",
+    "auditee": "Escher",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-escher"
+  },
+  {
+    "id": 77,
+    "auditor": "code4rena",
+    "auditee": "Tigris",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-tigris"
+  },
+  {
+    "id": 78,
+    "auditor": "code4rena",
+    "auditee": "Debtdao",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-debtdao"
+  },
+  {
+    "id": 79,
+    "auditor": "code4rena",
+    "auditee": "Backed",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-backed"
+  },
+  {
+    "id": 80,
+    "auditor": "code4rena",
+    "auditee": "Redactedcartel",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-redactedcartel"
+  },
+  {
+    "id": 81,
+    "auditor": "code4rena",
+    "auditee": "Prepo",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-prepo"
+  },
+  {
+    "id": 82,
+    "auditor": "code4rena",
+    "auditee": "Caviar",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-caviar"
+  },
+  {
+    "id": 83,
+    "auditor": "code4rena",
+    "auditee": "Stakehouse",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-stakehouse"
+  },
+  {
+    "id": 84,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2022-12",
+    "report": "https://code4rena.com/reports/2022-12-pooltogether"
+  },
+  {
+    "id": 85,
+    "auditor": "code4rena",
+    "auditee": "Anchor",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-anchor"
+  },
+  {
+    "id": 86,
+    "auditor": "code4rena",
+    "auditee": "Frax",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-frax"
+  },
+  {
+    "id": 87,
+    "auditor": "code4rena",
+    "auditee": "Size",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-size"
+  },
+  {
+    "id": 88,
+    "auditor": "code4rena",
+    "auditee": "Y2k",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-y2k-finance"
+  },
+  {
+    "id": 89,
+    "auditor": "code4rena",
+    "auditee": "Juicebox",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-juicebox"
+  },
+  {
+    "id": 90,
+    "auditor": "code4rena",
+    "auditee": "Paladin",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-paladin"
+  },
+  {
+    "id": 91,
+    "auditor": "code4rena",
+    "auditee": "Zksync",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-zksync"
+  },
+  {
+    "id": 92,
+    "auditor": "code4rena",
+    "auditee": "Traderjoe",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-traderjoe"
+  },
+  {
+    "id": 93,
+    "auditor": "code4rena",
+    "auditee": "Thegraph",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-thegraph"
+  },
+  {
+    "id": 94,
+    "auditor": "code4rena",
+    "auditee": "Inverse",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-inverse"
+  },
+  {
+    "id": 95,
+    "auditor": "code4rena",
+    "auditee": "Holograph",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-holograph"
+  },
+  {
+    "id": 96,
+    "auditor": "code4rena",
+    "auditee": "Foundation",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-foundation"
+  },
+  {
+    "id": 97,
+    "auditor": "code4rena",
+    "auditee": "Ens",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-ens"
+  },
+  {
+    "id": 98,
+    "auditor": "code4rena",
+    "auditee": "Artgobblers",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-artgobblers"
+  },
+  {
+    "id": 99,
+    "auditor": "code4rena",
+    "auditee": "Non",
+    "date": "2022-11",
+    "report": "https://code4rena.com/reports/2022-11-non-fungible"
+  },
+  {
+    "id": 100,
+    "auditor": "code4rena",
+    "auditee": "Blur",
+    "date": "2022-10",
+    "report": "https://code4rena.com/reports/2022-10-blur"
+  },
+  {
+    "id": 101,
+    "auditor": "code4rena",
+    "auditee": "Frax",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-frax"
+  },
+  {
+    "id": 102,
+    "auditor": "code4rena",
+    "auditee": "Party",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-party"
+  },
+  {
+    "id": 103,
+    "auditor": "code4rena",
+    "auditee": "Skale",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-skale"
+  },
+  {
+    "id": 104,
+    "auditor": "code4rena",
+    "auditee": "Tribe",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-tribe"
+  },
+  {
+    "id": 105,
+    "auditor": "code4rena",
+    "auditee": "Nouns",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-nouns-builder"
+  },
+  {
+    "id": 106,
+    "auditor": "code4rena",
+    "auditee": "Vtvl",
+    "date": "2022-09",
+    "report": "https://code4rena.com/reports/2022-09-vtvl"
+  },
+  {
+    "id": 107,
+    "auditor": "code4rena",
+    "auditee": "Olympus",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-olympus"
+  },
+  {
+    "id": 108,
+    "auditor": "code4rena",
+    "auditee": "Vetoken",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-vetoken"
+  },
+  {
+    "id": 109,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-canto-v2"
+  },
+  {
+    "id": 110,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-canto"
+  },
+  {
+    "id": 111,
+    "auditor": "code4rena",
+    "auditee": "Connext",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-connext"
+  },
+  {
+    "id": 112,
+    "auditor": "code4rena",
+    "auditee": "Mimo",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-mimo"
+  },
+  {
+    "id": 113,
+    "auditor": "code4rena",
+    "auditee": "Juicebox",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-juicebox"
+  },
+  {
+    "id": 114,
+    "auditor": "code4rena",
+    "auditee": "Axelar",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-axelar"
+  },
+  {
+    "id": 115,
+    "auditor": "code4rena",
+    "auditee": "Yield",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-yield"
+  },
+  {
+    "id": 116,
+    "auditor": "code4rena",
+    "auditee": "Fiatdao",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-fiatdao"
+  },
+  {
+    "id": 117,
+    "auditor": "code4rena",
+    "auditee": "Nounsdao",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-nounsdao"
+  },
+  {
+    "id": 118,
+    "auditor": "code4rena",
+    "auditee": "Swivel",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-swivel"
+  },
+  {
+    "id": 119,
+    "auditor": "code4rena",
+    "auditee": "Foundation",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-foundation"
+  },
+  {
+    "id": 120,
+    "auditor": "code4rena",
+    "auditee": "Yieldy",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-yieldy"
+  },
+  {
+    "id": 121,
+    "auditor": "code4rena",
+    "auditee": "Fractional",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-fractional"
+  },
+  {
+    "id": 122,
+    "auditor": "code4rena",
+    "auditee": "Nested",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-nested"
+  },
+  {
+    "id": 123,
+    "auditor": "code4rena",
+    "auditee": "Rigor",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-rigor"
+  },
+  {
+    "id": 124,
+    "auditor": "code4rena",
+    "auditee": "Putty",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-putty"
+  },
+  {
+    "id": 125,
+    "auditor": "code4rena",
+    "auditee": "Prepo",
+    "date": "2022-08",
+    "report": "https://code4rena.com/reports/2022-08-prepo"
+  },
+  {
+    "id": 126,
+    "auditor": "code4rena",
+    "auditee": "Cudos",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-cudos"
+  },
+  {
+    "id": 127,
+    "auditor": "code4rena",
+    "auditee": "Opensea",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-opensea-seaport"
+  },
+  {
+    "id": 128,
+    "auditor": "code4rena",
+    "auditee": "Illuminate",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-illuminate"
+  },
+  {
+    "id": 129,
+    "auditor": "code4rena",
+    "auditee": "Infinity",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-infinity"
+  },
+  {
+    "id": 130,
+    "auditor": "code4rena",
+    "auditee": "Velodrome",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-velodrome"
+  },
+  {
+    "id": 131,
+    "auditor": "code4rena",
+    "auditee": "Runes",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-runes"
+  },
+  {
+    "id": 132,
+    "auditor": "code4rena",
+    "auditee": "Badger",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-badger"
+  },
+  {
+    "id": 133,
+    "auditor": "code4rena",
+    "auditee": "Factorydao",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-factorydao"
+  },
+  {
+    "id": 134,
+    "auditor": "code4rena",
+    "auditee": "Rubicon",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-rubicon"
+  },
+  {
+    "id": 135,
+    "auditor": "code4rena",
+    "auditee": "Nibbl",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-nibbl"
+  },
+  {
+    "id": 136,
+    "auditor": "code4rena",
+    "auditee": "Aura",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-aura"
+  },
+  {
+    "id": 137,
+    "auditor": "code4rena",
+    "auditee": "Bunker",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-bunker"
+  },
+  {
+    "id": 138,
+    "auditor": "code4rena",
+    "auditee": "Biconomy",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-biconomy"
+  },
+  {
+    "id": 139,
+    "auditor": "code4rena",
+    "auditee": "Joyn",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-joyn"
+  },
+  {
+    "id": 140,
+    "auditor": "code4rena",
+    "auditee": "Backd",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-backd"
+  },
+  {
+    "id": 141,
+    "auditor": "code4rena",
+    "auditee": "Notional",
+    "date": "2022-06",
+    "report": "https://code4rena.com/reports/2022-06-notional-coop"
+  },
+  {
+    "id": 142,
+    "auditor": "code4rena",
+    "auditee": "Abranft",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-abranft"
+  },
+  {
+    "id": 143,
+    "auditor": "code4rena",
+    "auditee": "Mimo",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-mimo"
+  },
+  {
+    "id": 144,
+    "auditor": "code4rena",
+    "auditee": "Alchemix",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-alchemix"
+  },
+  {
+    "id": 145,
+    "auditor": "code4rena",
+    "auditee": "Sublime",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-sublime"
+  },
+  {
+    "id": 146,
+    "auditor": "code4rena",
+    "auditee": "Xtribe",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-xtribe"
+  },
+  {
+    "id": 147,
+    "auditor": "code4rena",
+    "auditee": "Canto",
+    "date": "2022-07",
+    "report": "https://code4rena.com/reports/2022-07-canto"
+  },
+  {
+    "id": 148,
+    "auditor": "code4rena",
+    "auditee": "Badger",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-badger-citadel"
+  },
+  {
+    "id": 149,
+    "auditor": "code4rena",
+    "auditee": "Cally",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-cally"
+  },
+  {
+    "id": 150,
+    "auditor": "code4rena",
+    "auditee": "Sturdy",
+    "date": "2022-05",
+    "report": "https://code4rena.com/reports/2022-05-sturdy"
+  },
+  {
+    "id": 151,
+    "auditor": "code4rena",
+    "auditee": "Volt",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-volt"
+  },
+  {
+    "id": 152,
+    "auditor": "code4rena",
+    "auditee": "Axelar",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-axelar"
+  },
+  {
+    "id": 153,
+    "auditor": "code4rena",
+    "auditee": "Rolla",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-rolla"
+  },
+  {
+    "id": 154,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-pooltogether"
+  },
+  {
+    "id": 155,
+    "auditor": "code4rena",
+    "auditee": "Phuture",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-phuture"
+  },
+  {
+    "id": 156,
+    "auditor": "code4rena",
+    "auditee": "Aave",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-aave-lens"
+  },
+  {
+    "id": 157,
+    "auditor": "code4rena",
+    "auditee": "Jpegd",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-jpegd"
+  },
+  {
+    "id": 158,
+    "auditor": "code4rena",
+    "auditee": "Hubble",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-hubble"
+  },
+  {
+    "id": 159,
+    "auditor": "code4rena",
+    "auditee": "Backd",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-backd"
+  },
+  {
+    "id": 160,
+    "auditor": "code4rena",
+    "auditee": "Dualityfocus",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-dualityfocus"
+  },
+  {
+    "id": 161,
+    "auditor": "code4rena",
+    "auditee": "Concur",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-concur"
+  },
+  {
+    "id": 162,
+    "auditor": "code4rena",
+    "auditee": "Foundation",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-foundation"
+  },
+  {
+    "id": 163,
+    "auditor": "code4rena",
+    "auditee": "Sherlock",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-sherlock"
+  },
+  {
+    "id": 164,
+    "auditor": "code4rena",
+    "auditee": "Timeswap",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-timeswap"
+  },
+  {
+    "id": 165,
+    "auditor": "code4rena",
+    "auditee": "Redacted",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-redacted-cartel"
+  },
+  {
+    "id": 166,
+    "auditor": "code4rena",
+    "auditee": "Paladin",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-paladin"
+  },
+  {
+    "id": 167,
+    "auditor": "code4rena",
+    "auditee": "Prepo",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-prepo"
+  },
+  {
+    "id": 168,
+    "auditor": "code4rena",
+    "auditee": "Lifinance",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-lifinance"
+  },
+  {
+    "id": 169,
+    "auditor": "code4rena",
+    "auditee": "Vader",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-vader"
+  },
+  {
+    "id": 170,
+    "auditor": "code4rena",
+    "auditee": "Defiprotocol",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-defiprotocol"
+  },
+  {
+    "id": 171,
+    "auditor": "code4rena",
+    "auditee": "Nested",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-nested"
+  },
+  {
+    "id": 172,
+    "auditor": "code4rena",
+    "auditee": "Badger",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-badger-citadel"
+  },
+  {
+    "id": 173,
+    "auditor": "code4rena",
+    "auditee": "Backed",
+    "date": "2022-04",
+    "report": "https://code4rena.com/reports/2022-04-backed"
+  },
+  {
+    "id": 174,
+    "auditor": "code4rena",
+    "auditee": "Unlock",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-unlock"
+  },
+  {
+    "id": 175,
+    "auditor": "code4rena",
+    "auditee": "Maple",
+    "date": "2022-03",
+    "report": "https://code4rena.com/reports/2022-03-maple"
+  },
+  {
+    "id": 176,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-pooltogether"
+  },
+  {
+    "id": 177,
+    "auditor": "code4rena",
+    "auditee": "Tribe",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-tribe-turbo"
+  },
+  {
+    "id": 178,
+    "auditor": "code4rena",
+    "auditee": "Jpyc",
+    "date": "2022-02",
+    "report": "https://code4rena.com/reports/2022-02-jpyc"
+  },
+  {
+    "id": 179,
+    "auditor": "code4rena",
+    "auditee": "Nftx",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-nftx"
+  },
+  {
+    "id": 180,
+    "auditor": "code4rena",
+    "auditee": "Behodler",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-behodler"
+  },
+  {
+    "id": 181,
+    "auditor": "code4rena",
+    "auditee": "Insure",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-insure"
+  },
+  {
+    "id": 182,
+    "auditor": "code4rena",
+    "auditee": "Notional",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-notional"
+  },
+  {
+    "id": 183,
+    "auditor": "code4rena",
+    "auditee": "Openleverage",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-openleverage"
+  },
+  {
+    "id": 184,
+    "auditor": "code4rena",
+    "auditee": "Trader",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-trader-joe"
+  },
+  {
+    "id": 185,
+    "auditor": "code4rena",
+    "auditee": "Yield",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-yield"
+  },
+  {
+    "id": 186,
+    "auditor": "code4rena",
+    "auditee": "Timeswap",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-timeswap"
+  },
+  {
+    "id": 187,
+    "auditor": "code4rena",
+    "auditee": "Yetifinance",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-yetifinance"
+  },
+  {
+    "id": 188,
+    "auditor": "code4rena",
+    "auditee": "Elasticswap",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-elasticswap"
+  },
+  {
+    "id": 189,
+    "auditor": "code4rena",
+    "auditee": "Sandclock",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-sandclock"
+  },
+  {
+    "id": 190,
+    "auditor": "code4rena",
+    "auditee": "Malt",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-malt"
+  },
+  {
+    "id": 191,
+    "auditor": "code4rena",
+    "auditee": "Sublime",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-sublime"
+  },
+  {
+    "id": 192,
+    "auditor": "code4rena",
+    "auditee": "Streaming",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-streaming"
+  },
+  {
+    "id": 193,
+    "auditor": "code4rena",
+    "auditee": "Livepeer",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-livepeer"
+  },
+  {
+    "id": 194,
+    "auditor": "code4rena",
+    "auditee": "Vader",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-vader"
+  },
+  {
+    "id": 195,
+    "auditor": "code4rena",
+    "auditee": "Xdefi",
+    "date": "2022-01",
+    "report": "https://code4rena.com/reports/2022-01-xdefi"
+  },
+  {
+    "id": 196,
+    "auditor": "code4rena",
+    "auditee": "Mellow",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-mellow"
+  },
+  {
+    "id": 197,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-pooltogether"
+  },
+  {
+    "id": 198,
+    "auditor": "code4rena",
+    "auditee": "Yaxis",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-yaxis"
+  },
+  {
+    "id": 199,
+    "auditor": "code4rena",
+    "auditee": "Defiprotocol",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-defiprotocol"
+  },
+  {
+    "id": 200,
+    "auditor": "code4rena",
+    "auditee": "Defiprotocol",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-defiprotocol"
+  },
+  {
+    "id": 201,
+    "auditor": "code4rena",
+    "auditee": "Fei",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-fei"
+  },
+  {
+    "id": 202,
+    "auditor": "code4rena",
+    "auditee": "Perennial",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-perennial"
+  },
+  {
+    "id": 203,
+    "auditor": "code4rena",
+    "auditee": "Bootfinance",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-bootfinance"
+  },
+  {
+    "id": 204,
+    "auditor": "code4rena",
+    "auditee": "Overlay",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-overlay"
+  },
+  {
+    "id": 205,
+    "auditor": "code4rena",
+    "auditee": "Maple",
+    "date": "2021-12",
+    "report": "https://code4rena.com/reports/2021-12-maple"
+  },
+  {
+    "id": 206,
+    "auditor": "code4rena",
+    "auditee": "Badgerdao",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-badgerdao"
+  },
+  {
+    "id": 207,
+    "auditor": "code4rena",
+    "auditee": "Fairside",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-fairside"
+  },
+  {
+    "id": 208,
+    "auditor": "code4rena",
+    "auditee": "Union",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-union"
+  },
+  {
+    "id": 209,
+    "auditor": "code4rena",
+    "auditee": "Sushitrident",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-sushitrident-2"
+  },
+  {
+    "id": 210,
+    "auditor": "code4rena",
+    "auditee": "Mochi",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-mochi"
+  },
+  {
+    "id": 211,
+    "auditor": "code4rena",
+    "auditee": "Sushitrident",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-sushitrident"
+  },
+  {
+    "id": 212,
+    "auditor": "code4rena",
+    "auditee": "Covalent",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-covalent"
+  },
+  {
+    "id": 213,
+    "auditor": "code4rena",
+    "auditee": "Tally",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-tally"
+  },
+  {
+    "id": 214,
+    "auditor": "code4rena",
+    "auditee": "Slingshot",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-slingshot"
+  },
+  {
+    "id": 215,
+    "auditor": "code4rena",
+    "auditee": "Wildcredit",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-wildcredit"
+  },
+  {
+    "id": 216,
+    "auditor": "code4rena",
+    "auditee": "Tracer",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-tracer"
+  },
+  {
+    "id": 217,
+    "auditor": "code4rena",
+    "auditee": "Ambire",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-ambire"
+  },
+  {
+    "id": 218,
+    "auditor": "code4rena",
+    "auditee": "Yaxis",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-yaxis"
+  },
+  {
+    "id": 219,
+    "auditor": "code4rena",
+    "auditee": "Tempus",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-tempus"
+  },
+  {
+    "id": 220,
+    "auditor": "code4rena",
+    "auditee": "Gravitybridge",
+    "date": "2021-08",
+    "report": "https://code4rena.com/reports/2021-08-gravitybridge"
+  },
+  {
+    "id": 221,
+    "auditor": "code4rena",
+    "auditee": "Bvecvx",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-bvecvx"
+  },
+  {
+    "id": 222,
+    "auditor": "code4rena",
+    "auditee": "Sushimiso",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-sushimiso"
+  },
+  {
+    "id": 223,
+    "auditor": "code4rena",
+    "auditee": "Swivel",
+    "date": "2021-09",
+    "report": "https://code4rena.com/reports/2021-09-swivel"
+  },
+  {
+    "id": 224,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2021-10",
+    "report": "https://code4rena.com/reports/2021-10-pooltogether"
+  },
+  {
+    "id": 225,
+    "auditor": "code4rena",
+    "auditee": "Notional",
+    "date": "2021-08",
+    "report": "https://code4rena.com/reports/2021-08-notional"
+  },
+  {
+    "id": 226,
+    "auditor": "code4rena",
+    "auditee": "Realitycards",
+    "date": "2021-08",
+    "report": "https://code4rena.com/reports/2021-08-realitycards"
+  },
+  {
+    "id": 227,
+    "auditor": "code4rena",
+    "auditee": "Yield",
+    "date": "2021-08",
+    "report": "https://code4rena.com/reports/2021-08-yield"
+  },
+  {
+    "id": 228,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2021-06",
+    "report": "https://code4rena.com/reports/2021-06-pooltogether"
+  },
+  {
+    "id": 229,
+    "auditor": "code4rena",
+    "auditee": "Tracer",
+    "date": "2021-06",
+    "report": "https://code4rena.com/reports/2021-06-tracer"
+  },
+  {
+    "id": 230,
+    "auditor": "code4rena",
+    "auditee": "Sherlock",
+    "date": "2021-07",
+    "report": "https://code4rena.com/reports/2021-07-sherlock"
+  },
+  {
+    "id": 231,
+    "auditor": "code4rena",
+    "auditee": "Spartan",
+    "date": "2021-07",
+    "report": "https://code4rena.com/reports/2021-07-spartan"
+  },
+  {
+    "id": 232,
+    "auditor": "code4rena",
+    "auditee": "Floatcapital",
+    "date": "2021-08",
+    "report": "https://code4rena.com/reports/2021-08-floatcapital"
+  },
+  {
+    "id": 233,
+    "auditor": "code4rena",
+    "auditee": "Pooltogether",
+    "date": "2021-07",
+    "report": "https://code4rena.com/reports/2021-07-pooltogether"
+  },
+  {
+    "id": 234,
+    "auditor": "code4rena",
+    "auditee": "Connext",
+    "date": "2021-07",
+    "report": "https://code4rena.com/reports/2021-07-connext"
+  },
+  {
+    "id": 235,
+    "auditor": "code4rena",
+    "auditee": "Visorfinance",
+    "date": "2021-05",
+    "report": "https://code4rena.com/reports/2021-05-visorfinance"
+  },
+  {
+    "id": 236,
+    "auditor": "code4rena",
+    "auditee": "Gro",
+    "date": "2021-06",
+    "report": "https://code4rena.com/reports/2021-06-gro"
+  },
+  {
+    "id": 237,
+    "auditor": "code4rena",
+    "auditee": "Wildcredit",
+    "date": "2021-07",
+    "report": "https://code4rena.com/reports/2021-07-wildcredit"
+  },
+  {
+    "id": 238,
+    "auditor": "code4rena",
+    "auditee": "Realitycards",
+    "date": "2021-06",
+    "report": "https://code4rena.com/reports/2021-06-realitycards"
+  },
+  {
+    "id": 239,
+    "auditor": "code4rena",
+    "auditee": "Yield",
+    "date": "2021-05",
+    "report": "https://code4rena.com/reports/2021-05-yield"
+  },
+  {
+    "id": 240,
+    "auditor": "code4rena",
+    "auditee": "Fairside",
+    "date": "2021-05",
+    "report": "https://code4rena.com/reports/2021-05-fairside"
+  },
+  {
+    "id": 241,
+    "auditor": "code4rena",
+    "auditee": "Meebits",
+    "date": "2021-04",
+    "report": "https://code4rena.com/reports/2021-04-meebits"
+  },
+  {
+    "id": 242,
+    "auditor": "code4rena",
+    "auditee": "Nftx",
+    "date": "2021-05",
+    "report": "https://code4rena.com/reports/2021-05-nftx"
+  },
+  {
+    "id": 243,
+    "auditor": "code4rena",
+    "auditee": "Vader",
+    "date": "2021-04",
+    "report": "https://code4rena.com/reports/2021-04-vader"
+  },
+  {
+    "id": 244,
+    "auditor": "code4rena",
+    "auditee": "88mph",
+    "date": "2021-05",
+    "report": "https://code4rena.com/reports/2021-05-88mph"
+  },
+  {
+    "id": 245,
+    "auditor": "code4rena",
+    "auditee": "Basedloans",
+    "date": "2021-04",
+    "report": "https://code4rena.com/reports/2021-04-basedloans"
+  },
+  {
+    "id": 246,
+    "auditor": "code4rena",
+    "auditee": "Maple",
+    "date": "2021-04",
+    "report": "https://code4rena.com/reports/2021-04-maple"
+  },
+  {
+    "id": 247,
+    "auditor": "code4rena",
+    "auditee": "Marginswap",
+    "date": "2021-04",
+    "report": "https://code4rena.com/reports/2021-04-marginswap"
+  },
+  {
+    "id": 248,
+    "auditor": "code4rena",
+    "auditee": "Elasticdao",
+    "date": "2021-03",
+    "report": "https://code4rena.com/reports/2021-03-elasticdao"
+  },
+  {
+    "id": 249,
+    "auditor": "code4rena",
+    "auditee": "Slingshot",
+    "date": "2021-02",
+    "report": "https://code4rena.com/reports/2021-02-slingshot"
+  },
+  {
+    "id": 250,
+    "auditor": "code4rena",
+    "auditee": "Nested",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-nested"
+  },
+  {
+    "id": 251,
+    "auditor": "code4rena",
+    "auditee": "Badgerzaps",
+    "date": "2021-11",
+    "report": "https://code4rena.com/reports/2021-11-badgerzaps"
+  }
+]
