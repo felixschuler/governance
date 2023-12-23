@@ -177,7 +177,7 @@
   {
     "id": 26,
     "auditor": "OpenZeppelin",
-    "auditee": "Retro/Thena",
+    "auditee": "Retro-Thena",
     "date": "2023-06",
     "report": "https://blog.openzeppelin.com/retro-thena-audit"
   },
